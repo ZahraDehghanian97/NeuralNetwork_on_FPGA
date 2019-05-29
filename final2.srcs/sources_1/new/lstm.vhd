@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 04/21/2019 01:00:02 PM
+-- Create Date: 05/26/2019 10:35:43 AM
 -- Design Name: 
--- Module Name: tanh - Behavioral
+-- Module Name: scd - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -21,34 +21,30 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use work.types.all;
+
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 use IEEE.NUMERIC_STD.ALL;
-
+use work.neurals_utils.all ;
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx leaf cells in this code.
 --library UNISIM;
 --use UNISIM.VComponents.all;
-entity NAdder is
-    generic (  n : integer := 2
- );
-Port (
-  X_adder : in  myArray32(n-1 downto 0);
-  Y_adder : out std_logic_vector(31 downto 0)
-  );end NAdder;
 
-architecture Behavioral of NAdder is
---signal sum : std_logic_vector(31 downto 0) ;
+ENTITY LSTM_Cell IS
+ PORT (
+ clk : IN STD_LOGIC;
+ xt : IN matrix_1_4;
+ ct_1 : IN matrix_1_8;
+ ht_1 : IN matrix_1_8;
+ ht : OUT matrix_1_8;
+ ct : OUT matrix_1_8;
+ ready : OUT STD_LOGIC );
+END LSTM_Cell;
+
+architecture Behavioral of LSTM_Cell is
+
 begin
-process (X_adder)
-variable sum : signed(31 downto 0):=(others => '0');
-begin
-    sum := (others => '0');
-    for i in 0 to n-1 loop
-        sum := (signed(sum) + signed(X_adder(i)));
-    end loop;
-    Y_adder <= std_logic_vector(sum) ;
-end process;
+
+
 end Behavioral;
-
