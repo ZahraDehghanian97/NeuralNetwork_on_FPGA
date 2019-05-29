@@ -19,7 +19,7 @@ begin
 
   process(inputx, inputy)
   variable ix : real;                
-  variable iy : real;              
+  variable iy : real;                
   variable oo : real;
   begin
     ix := slv_to_single_float(inputx);

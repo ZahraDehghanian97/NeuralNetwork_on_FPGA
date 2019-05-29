@@ -3,6 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 use ieee.math_real.all;
 use IEEE.numeric_std.all;
 
+library work;
 use work.neurals_utils.all;
 
 entity add_module is
