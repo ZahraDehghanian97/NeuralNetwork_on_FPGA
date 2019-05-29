@@ -154,3 +154,1753 @@ selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries",
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1); // k (j, ck)
 selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1, false, true); // k (j, ck) - Double Click
 maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 239 seconds
+selectCodeEditor("lstm.vhd", 221, 230); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 240, 287); // ce (w, ck)
+// [GUI Memory]: 86 MB (+1246kb) [00:08:59]
+// Elapsed time: 524 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+unMaximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+// [Engine Memory]: 659 MB (+462kb) [00:17:37]
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 21 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Input"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// HOptionPane Warning: 'Please enter a file name. (Create Source File)'
+selectButton("PAResourceAtoD.CreateSrcFileDialog_ENTER_FILE_NAME_OK", "OK"); // JButton (A, H)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 33 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd 
+// I (ck): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("Input.vhd", 91, 274); // ce (w, ck)
+// Elapsed time: 122 seconds
+selectCodeEditor("Input.vhd", 90, 301); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 1); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, neural.vhd]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, neural.vhd]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 43 MB. Current time: 5/29/19 11:13:15 AM IRDT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, neural.vhd]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, neural.vhd]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("neural.vhd", 123, 114); // ce (w, ck)
+typeControlKey((HResource) null, "neural.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 49 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1); // k (j, ck)
+selectCodeEditor("lstm.vhd", 218, 331); // ce (w, ck)
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+typeControlKey((HResource) null, "neural.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 23 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 193, 342); // ce (w, ck)
+// Elapsed time: 43 seconds
+selectCodeEditor("Input.vhd", 88, 357); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 567ms to process. Increasing delay to 3000 ms.
+// Elapsed time: 31 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("Input.vhd", 169, 59); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 31 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "matrix_add_"); // X (Q, F)
+dismissDialog("Create Source File"); // F (c)
+// Elapsed time: 19 seconds
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 35 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "matrix_add"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 92 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd 
+// I (ck): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 1); // i (N, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced]", 3); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, Input.vhd]", 4, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aw (aE, ck)
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ch, ck)
+// Y (ck): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // ci (Q, Y)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (Y)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd] 
+dismissDialog("Set Type"); // Y (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, matrix_add.vhd]", 4, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+// [GUI Memory]: 93 MB (+2405kb) [00:26:43]
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aw (aE, ck)
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ch, ck)
+// Y (ck): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // ci (Q, Y)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (Y)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd] 
+dismissDialog("Set Type"); // Y (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Unreferenced]", 5, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Unreferenced]", 5, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Unreferenced, matrix_add.vhd]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Unreferenced, matrix_add.vhd]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "matrix_add.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "matrix_add.vhd", 4, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("matrix_add.vhd", 424, 118); // ce (w, ck)
+selectCodeEditor("matrix_add.vhd", 171, 242); // ce (w, ck)
+// Elapsed time: 351 seconds
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "matrix_add.vhd", 4, true, false); // k (j, ck) - Popup Trigger
+selectCodeEditor("matrix_add.vhd", 297, 189); // ce (w, ck)
+selectCodeEditor("matrix_add.vhd", 151, 249); // ce (w, ck)
+// Elapsed time: 25 seconds
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "matrix_add.vhd", 4, true, false); // k (j, ck) - Popup Trigger
+selectCodeEditor("matrix_add.vhd", 345, 137); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Unreferenced, matrix_add.vhd]", 7, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ad (aj, ck)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (Q, aE): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd 
+// Tcl Message: file delete -force C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd 
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 26 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "add_matrix_1_8"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 32 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_matrix_1_8.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_matrix_1_8.vhd 
+// I (ck): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+// Tcl Message: update_compile_order -fileset sources_1 
+unMaximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 98 MB (+119kb) [00:34:28]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1, true); // B (D, ck) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, add_matrix_1_8.vhd]", 4, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aw (aE, ck)
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ch, ck)
+// Y (ck): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // ci (Q, Y)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (Y)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_matrix_1_8.vhd] 
+dismissDialog("Set Type"); // Y (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+// Elapsed time: 69 seconds
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Unreferenced, add_matrix_1_8.vhd]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Unreferenced, add_matrix_1_8.vhd]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Unreferenced, add_matrix_1_8.vhd]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 61, 260); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+typeControlKey((HResource) null, "neural.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 39 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectCodeEditor("Input.vhd", 223, 301); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("add_matrix_1_8.vhd", 71, 365); // ce (w, ck)
+// Elapsed time: 113 seconds
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 153, 246); // ce (w, ck)
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 254 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "add_module"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd 
+// I (ck): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, add_module.vhd]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, add_module.vhd]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("add_module.vhd", 183, 122, false, true, false, false, false); // ce (w, ck) - Control Key
+typeControlKey((HResource) null, "add_module.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_module.vhd", 5); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_module.vhd", 5, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_module.vhd", 5); // k (j, ck)
+selectCodeEditor("add_module.vhd", 109, 166); // ce (w, ck)
+typeControlKey((HResource) null, "add_module.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'v'); // ce (w, ck)
+// [GUI Memory]: 103 MB (+224kb) [00:45:55]
+// Elapsed time: 287 seconds
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 44 MB. Current time: 5/29/19 11:43:15 AM IRDT
+// Elapsed time: 17 seconds
+selectCodeEditor("add_matrix_1_8.vhd", 74, 290); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 163, 319); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 153, 247); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 80, 351); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_module.vhd", 5); // k (j, ck)
+selectCodeEditor("add_module.vhd", 288, 114); // ce (w, ck)
+selectCodeEditor("add_module.vhd", 256, 128); // ce (w, ck)
+selectCodeEditor("add_module.vhd", 238, 158); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+// Elapsed time: 127 seconds
+selectCodeEditor("add_matrix_1_8.vhd", 520, 336); // ce (w, ck)
+// Elapsed time: 151 seconds
+selectCodeEditor("add_matrix_1_8.vhd", 669, 377); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 29 seconds
+selectCodeEditor("add_matrix_1_8.vhd", 468, 273); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 405, 220); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("add_matrix_1_8.vhd", 427, 131); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 322, 83); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("add_matrix_1_8.vhd", 234, 115); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 203, 165); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 170, 244); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("add_matrix_1_8.vhd", 243, 280); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 248, 295); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 216 seconds
+selectCodeEditor("add_matrix_1_8.vhd", 185, 349); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, add_module.vhd]", 3, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aw (aE, ck)
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ch, ck)
+// Y (ck): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // ci (Q, Y)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (Y)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd] 
+dismissDialog("Set Type"); // Y (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_matrix_1_8(Behavioral) (add_matrix_1_8.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_matrix_1_8(Behavioral) (add_matrix_1_8.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 10, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd)]", 11, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/lstm.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 54 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// e (ck):  Run Simulation : addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'add_matrix_1_8' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj add_matrix_1_8_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural.vhd" into library xil_defaultlib INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity add_module INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_matrix_1_8.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity add_matrix_1_8 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot add_matrix_1_8_behav 
+// Tcl Message:  ****** Webtalk v2018.2 (64-bit)   **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018   **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/xsim.dir/add_matrix_1_8_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 55.395 ; gain = 1.129 INFO: [Common 17-206] Exiting Webtalk at Wed May 29 11:55:03 2019... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 897.191 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "add_matrix_1_8_behav -key {Behavioral:sim_1:Functional:add_matrix_1_8} -tclbatch {add_matrix_1_8.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// Elapsed time: 19 seconds
+unMaximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source add_matrix_1_8.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// Tcl Message: # run 1000ns 
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 51 MB. Current time: 5/29/19 11:55:08 AM IRDT
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'add_matrix_1_8_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:21 . Memory (MB): peak = 924.652 ; gain = 27.461 
+// 'd' command handler elapsed time: 23 seconds
+dismissDialog("Run Simulation"); // e (ck)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 219 seconds
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "in_1[0:7][31:0] ; UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU ; Array", 0, "UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU", 1, true, false, false, false, true, false); // m (c, ck) - Popup Trigger - Node
+selectMenu((HResource) null, "Radix"); // aa (aj, ck)
+selectMenu((HResource) null, "Radix"); // aa (aj, ck)
+selectMenu((HResource) null, "Radix"); // aa (aj, ck)
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "in_1[0:7][31:0] ; UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU ; Array", 0, "in_1[0:7][31:0]", 0, true); // m (c, ck) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "[0][31:0] ; UUUUUUUU ; Array", 1, "UUUUUUUU", 1, true, false, false, false, true, false); // m (c, ck) - Popup Trigger - Node
+selectMenu((HResource) null, "Radix"); // aa (aj, ck)
+selectMenuItem((HResource) null, "Force Constant..."); // ad (aj, ck)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a (ck): Force Constant:  /add_matrix_1_8/in_1[0]: addNotify
+setText(PAResourceQtoS.SimulationForceSettingsDialog_FORCE_VALUE, "1"); // X (Q, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: add_force {/add_matrix_1_8/in_1[0]} -radix hex {1 0ns} 
+dismissDialog("Force Constant:  /add_matrix_1_8/in_1[0]"); // a (ck)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "[1][31:0] ; UUUUUUUU ; Array", 2, "UUUUUUUU", 1, true, false, false, false, true, false); // m (c, ck) - Popup Trigger - Node
+selectMenu((HResource) null, "Radix"); // aa (aj, ck)
+selectMenuItem((HResource) null, "Force Constant..."); // ad (aj, ck)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a (ck): Force Constant:  /add_matrix_1_8/in_1[1]: addNotify
+setText(PAResourceQtoS.SimulationForceSettingsDialog_FORCE_VALUE, "2"); // X (Q, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: add_force {/add_matrix_1_8/in_1[1]} -radix hex {2 0ns} 
+dismissDialog("Force Constant:  /add_matrix_1_8/in_1[1]"); // a (ck)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "[2][31:0] ; UUUUUUUU ; Array", 3, "UUUUUUUU", 1, true, false, false, false, true, false); // m (c, ck) - Popup Trigger - Node
+selectMenu((HResource) null, "Radix"); // aa (aj, ck)
+selectMenuItem((HResource) null, "Force Constant..."); // ad (aj, ck)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a (ck): Force Constant:  /add_matrix_1_8/in_1[2]: addNotify
+setText(PAResourceQtoS.SimulationForceSettingsDialog_FORCE_VALUE, "3"); // X (Q, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: add_force {/add_matrix_1_8/in_1[2]} -radix hex {3 0ns} 
+dismissDialog("Force Constant:  /add_matrix_1_8/in_1[2]"); // a (ck)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "in_2[0:7][31:0] ; UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU,UUUUUUUU ; Array", 7, "in_2[0:7][31:0]", 0, true); // m (c, ck) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "[0][31:0] ; UUUUUUUU ; Array", 8, "UUUUUUUU", 1, true, false, false, false, true, false); // m (c, ck) - Popup Trigger - Node
+selectMenu((HResource) null, "Radix"); // aa (aj, ck)
+selectMenuItem((HResource) null, "Force Constant..."); // ad (aj, ck)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a (ck): Force Constant:  /add_matrix_1_8/in_2[0]: addNotify
+setText(PAResourceQtoS.SimulationForceSettingsDialog_FORCE_VALUE, "4"); // X (Q, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: add_force {/add_matrix_1_8/in_2[0]} -radix hex {4 0ns} 
+dismissDialog("Force Constant:  /add_matrix_1_8/in_2[0]"); // a (ck)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "[0][31:0] ; 00000004 ; Array", 3, "00000004", 1, true, false, false, false, true, false); // m (c, ck) - Popup Trigger - Node
+selectMenu((HResource) null, "Radix"); // aa (aj, ck)
+selectMenuItem((HResource) null, "Force Constant..."); // ad (aj, ck)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a (ck): Force Constant:  /add_matrix_1_8/in_2[0]: addNotify
+setText(PAResourceQtoS.SimulationForceSettingsDialog_FORCE_VALUE, "1"); // X (Q, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: add_force {/add_matrix_1_8/in_2[0]} -radix hex {1 0ns} 
+dismissDialog("Force Constant:  /add_matrix_1_8/in_2[0]"); // a (ck)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "[1][31:0] ; UUUUUUUU ; Array", 4, "UUUUUUUU", 1, true, false, false, false, true, false); // m (c, ck) - Popup Trigger - Node
+selectMenu((HResource) null, "Radix"); // aa (aj, ck)
+selectMenuItem((HResource) null, "Force Constant..."); // ad (aj, ck)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a (ck): Force Constant:  /add_matrix_1_8/in_2[1]: addNotify
+setText(PAResourceQtoS.SimulationForceSettingsDialog_FORCE_VALUE, "2"); // X (Q, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: add_force {/add_matrix_1_8/in_2[1]} -radix hex {2 0ns} 
+dismissDialog("Force Constant:  /add_matrix_1_8/in_2[1]"); // a (ck)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "[2][31:0] ; UUUUUUUU ; Array", 5, "UUUUUUUU", 1, true, false, false, false, true, false); // m (c, ck) - Popup Trigger - Node
+selectMenu((HResource) null, "Radix"); // aa (aj, ck)
+selectMenuItem((HResource) null, "Force Constant..."); // ad (aj, ck)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a (ck): Force Constant:  /add_matrix_1_8/in_2[2]: addNotify
+setText(PAResourceQtoS.SimulationForceSettingsDialog_FORCE_VALUE, "3"); // X (Q, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: add_force {/add_matrix_1_8/in_2[2]} -radix hex {3 0ns} 
+dismissDialog("Force Constant:  /add_matrix_1_8/in_2[2]"); // a (ck)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, "simulation_live_run_for_time"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run 1000 us 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "out_add[0:7][31:0] ; 00000002,00000004,00000006,00000000,00000000,00000000,00000000,00000000 ; Array", 8, "out_add[0:7][31:0]", 0, true); // m (c, ck) - Node
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 15 seconds
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // w
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - add_matrix_1_8", "DesignTask.SIMULATION");
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 924.652 ; gain = 0.000 
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("Input.vhd", 31, 259); // ce (w, ck)
+// Elapsed time: 107 seconds
+selectCodeEditor("Input.vhd", 293, 298); // ce (w, ck)
+// [GUI Memory]: 109 MB (+715kb) [01:18:20]
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 549 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1414 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 1879 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2274 ms. Increasing delay to 3000 ms.
+// Elapsed time: 1271 seconds
+selectCodeEditor("Input.vhd", 92, 267); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 17 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 48 MB. Current time: 5/29/19 12:25:09 PM IRDT
+// Elapsed time: 33 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 62 seconds
+selectCodeEditor("Input.vhd", 453, 400); // ce (w, ck)
+// Elapsed time: 22 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Input.vhd", 557, 288); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_matrix_1_8(Behavioral) (add_matrix_1_8.vhd)]", 1, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_matrix_1_8.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_module(high_level_sim) (add_module.vhd)]", 1, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd] 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Input.vhd]", 3, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+// TclEventType: DG_GRAPH_GENERATED
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 1, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ck):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Input' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Input_vhdl.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/xvhdl.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/xvhdl.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 6 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ck): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Critical Messages"); // a (ck)
+// Elapsed time: 11 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 275, 67); // dn (ae, ck)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 299, 59); // dn (ae, ck)
+// Elapsed time: 39 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 269, 77); // dn (ae, ck)
+// Elapsed time: 375 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("Input.vhd", 100, 301); // ce (w, ck)
+selectCodeEditor("Input.vhd", 300, 311); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 226 seconds
+selectCodeEditor("Input.vhd", 215, 244); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 20 seconds
+selectCodeEditor("Input.vhd", 46, 214); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("Input.vhd", 115, 160); // ce (w, ck)
+selectCodeEditor("Input.vhd", 21, 164); // ce (w, ck)
+// Elapsed time: 623 seconds
+selectCodeEditor("Input.vhd", 192, 171); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 185 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 1, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+// TclEventType: DG_GRAPH_GENERATED
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "multipy"); // X (Q, F)
+// Elapsed time: 17 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "dot_multiplier"); // X (Q, F)
+// Elapsed time: 35 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "dot_multiplier_1_8"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 67 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd 
+// I (ck): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, neurals_utils(neurals_utils) (neural.vhd)]", 1, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1092ms to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 47 MB. Current time: 5/29/19 12:55:09 PM IRDT
+// Elapsed time: 151 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dot_multiplier_1_8(Behavioral) (dot_multiplier_1_8.vhd)]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dot_multiplier_1_8(Behavioral) (dot_multiplier_1_8.vhd)]", 1, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 6); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 6, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 72, 260); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_module.vhd", 5); // k (j, ck)
+selectCodeEditor("add_module.vhd", 222, 119); // ce (w, ck)
+selectCodeEditor("add_module.vhd", 217, 103); // ce (w, ck)
+typeControlKey((HResource) null, "add_module.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 6); // k (j, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 99, 82); // ce (w, ck)
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 82, 314); // ce (w, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 101, 296); // ce (w, ck)
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 235, 96); // ce (w, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 113, 78); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 6); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 6, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 1); // i (N, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, dot_multiplier_1_8.vhd]", 3, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // aw (aE, ck)
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ch, ck)
+// Y (ck): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // ci (Q, Y)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (Y)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd] 
+dismissDialog("Set Type"); // Y (ck)
+unMaximizeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // aw (aE, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 6); // k (j, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 252, 52); // ce (w, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 252, 52, false, false, false, false, true); // ce (w, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 6); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 6, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 65, 246); // ce (w, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 200, 65); // ce (w, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 210, 86); // ce (w, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 198, 79); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'v'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_module.vhd", 5); // k (j, ck)
+selectCodeEditor("add_module.vhd", 337, 150, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectCodeEditor("add_module.vhd", 255, 104); // ce (w, ck)
+selectCodeEditor("add_module.vhd", 130, 92); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectCodeEditor("neural.vhd", 224, 137); // ce (w, ck)
+selectCodeEditor("neural.vhd", 123, 124); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectCodeEditor("Input.vhd", 199, 242); // ce (w, ck)
+selectCodeEditor("Input.vhd", 199, 242, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5); // k (j, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 182, 126); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'v'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, dot_multiplier_1_8.vhd]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, neural.vhd]", 4, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+unMaximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("dot_multiplier_1_8.vhd", 264, 197); // ce (w, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 208, 248); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 45 seconds
+selectCodeEditor("dot_multiplier_1_8.vhd", 163, 361); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 47 MB. Current time: 5/29/19 1:26:53 PM IRDT
+// Elapsed time: 1754 seconds
+selectCodeEditor("dot_multiplier_1_8.vhd", 484, 225); // ce (w, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 518, 227); // ce (w, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 221, 255); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 49, 318); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 2, 335); // ce (w, ck)
+typeControlKey((HResource) null, "add_matrix_1_8.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5); // k (j, ck)
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+// Elapsed time: 21 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 704 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+// 'h' command handler elapsed time: 709 seconds
+dismissDialog("Add Sources"); // c (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, dot_multiplier_1_8.vhd]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, dot_multiplier_1_8.vhd]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 251, 374); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 20 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "multiplier_module"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 30 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd 
+// I (ck): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, multiplier_module.vhd]", 4, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, multiplier_module.vhd]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, multiplier_module.vhd]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_module.vhd", 6); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_module.vhd", 6, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("multiplier_module.vhd", 454, 225); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier_module.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectCodeEditor("multiplier_module.vhd", 281, 280); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_module.vhd", 6); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_module.vhd", 6); // k (j, ck)
+selectCodeEditor("multiplier_module.vhd", 1, 148); // ce (w, ck)
+typeControlKey((HResource) null, "multiplier_module.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5); // k (j, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 339, 248); // ce (w, ck)
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 37 seconds
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 131 seconds
+selectCodeEditor("dot_multiplier_1_8.vhd", 491, 357); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("dot_multiplier_1_8.vhd", 390, 367); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 487 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_module.vhd", 6); // k (j, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("multiplier_module.vhd", 445, 165); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 5); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_matrix_1_8.vhd", 4, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 187, 143); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 225, 154); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 49 MB. Current time: 5/29/19 1:56:53 PM IRDT
+// Elapsed time: 16 seconds
+selectCodeEditor("add_matrix_1_8.vhd", 83, 115); // ce (w, ck)
+selectCodeEditor("add_matrix_1_8.vhd", 238, 219); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 4); // k (j, ck)
+selectCodeEditor("dot_multiplier_1_8.vhd", 289, 183); // ce (w, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("multiplier_module.vhd", 514, 84); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier_module.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1); // k (j, ck)
+// Elapsed time: 1718 seconds
+selectCodeEditor("lstm.vhd", 274, 260); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 87, 353); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectCodeEditor("Input.vhd", 166, 276); // ce (w, ck)
+selectCodeEditor("Input.vhd", 162, 307); // ce (w, ck)
+// Elapsed time: 20 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectCodeEditor("neural.vhd", 87, 253); // ce (w, ck)
+selectCodeEditor("neural.vhd", 78, 249); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 47 MB. Current time: 5/29/19 2:26:53 PM IRDT
+selectCodeEditor("neural.vhd", 339, 320); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("neural.vhd", 91, 263); // ce (w, ck)
+typeControlKey((HResource) null, "neural.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 29 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 16 seconds
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 130 seconds
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 312, 333); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 284, 335); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 252, 337); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 230, 334); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 369, 348); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 337, 353); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 315, 352); // ce (w, ck)
+selectCodeEditor("Input.vhd", 315, 352, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 214, 316); // ce (w, ck)
+selectCodeEditor("Input.vhd", 215, 298); // ce (w, ck)
+// Elapsed time: 29 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 712, 304); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 430, 301); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 677, 292); // ce (w, ck)
+selectCodeEditor("Input.vhd", 396, 300); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 888, 300); // ce (w, ck)
+selectCodeEditor("Input.vhd", 450, 301); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 753, 297); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 594, 299); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 20 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 77, 193); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 436, 280); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 72, 182); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 437, 280); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 63, 183); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 588, 283); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 92, 178); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 813, 282); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 81, 176); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 759, 276); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 278, 211); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("Input.vhd", 74, 197); // ce (w, ck)
+selectCodeEditor("Input.vhd", 509, 314); // ce (w, ck)
+selectCodeEditor("Input.vhd", 74, 196); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 432, 297); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 74, 196); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 595, 296); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 77, 198); // ce (w, ck)
+// Elapsed time: 15 seconds
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+selectCodeEditor("Input.vhd", 832, 301); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 76, 195); // ce (w, ck)
+selectCodeEditor("Input.vhd", 828, 280); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 97, 197); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("Input.vhd", 703, 303); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 87, 180); // ce (w, ck)
+selectCodeEditor("Input.vhd", 579, 279); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 41, 180); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("Input.vhd", 535, 285); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 132, 180); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Input.vhd", 443, 297); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 63, 178); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 563, 281); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("Input.vhd", 134, 178); // ce (w, ck)
+selectCodeEditor("Input.vhd", 795, 285); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("Input.vhd", 752, 295); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 122, 198); // ce (w, ck)
+selectCodeEditor("Input.vhd", 595, 302); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 432, 315); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 87, 211); // ce (w, ck)
+selectCodeEditor("Input.vhd", 589, 318); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 93, 212); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 819, 317); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 123, 213); // ce (w, ck)
+selectCodeEditor("Input.vhd", 666, 318); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 128, 215); // ce (w, ck)
+selectCodeEditor("Input.vhd", 580, 315); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 157, 207); // ce (w, ck)
+selectCodeEditor("Input.vhd", 593, 315); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 192, 202); // ce (w, ck)
+selectCodeEditor("Input.vhd", 188, 210); // ce (w, ck)
+selectCodeEditor("Input.vhd", 537, 316); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 214, 211); // ce (w, ck)
+selectCodeEditor("Input.vhd", 766, 318); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 73 seconds
+selectCodeEditor("Input.vhd", 190, 305); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Input.vhd", 194, 270); // ce (w, ck)
+selectCodeEditor("Input.vhd", 196, 336); // ce (w, ck)
+selectCodeEditor("Input.vhd", 213, 332); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("Input.vhd", 85, 160); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("Input.vhd", 195, 200); // ce (w, ck)
+// Elapsed time: 19 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Input.vhd", 173, 74); // ce (w, ck)
+// Elapsed time: 29 seconds
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("Input.vhd", 120, 369); // ce (w, ck)
+// Elapsed time: 86 seconds
+selectCodeEditor("Input.vhd", 62, 360); // ce (w, ck)
+// Elapsed time: 44 seconds
+selectCodeEditor("Input.vhd", 87, 107); // ce (w, ck)
+selectCodeEditor("Input.vhd", 235, 249); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResourceCommand.RDICommands_DELETE, (String) null); // B (f, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dot_multiplier_1_8(Behavioral) (dot_multiplier_1_8.vhd)]", 1, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd] 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Input.vhd]", 3, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd] 
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, multiplier_module.vhd]", 3, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, multiplier_module.vhd]", 3, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // aw (aE, ck)
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ch, ck)
+// Y (ck): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // ci (Q, Y)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (Y)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd] 
+dismissDialog("Set Type"); // Y (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+unMaximizeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // aw (aE, ck)
+// TclEventType: DG_GRAPH_GENERATED
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 1, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ck):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Input' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Input_vhdl.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/xvhdl.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/xvhdl.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 6 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ck): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Critical Messages"); // a (ck)
+// Elapsed time: 13 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 390, 83); // dn (ae, ck)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 398, 96); // dn (ae, ck)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 443, 94); // dn (ae, ck)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 455, 97); // dn (ae, ck)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 444, 98); // dn (ae, ck)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 447, 96); // dn (ae, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectCodeEditor("neural.vhd", 272, 127); // ce (w, ck)
+selectCodeEditor("neural.vhd", 278, 142); // ce (w, ck)
+selectCodeEditor("neural.vhd", 284, 164); // ce (w, ck)
+selectCodeEditor("neural.vhd", 312, 166); // ce (w, ck)
+selectCodeEditor("neural.vhd", 298, 159); // ce (w, ck)
+selectCodeEditor("neural.vhd", 133, 150); // ce (w, ck)
+selectCodeEditor("neural.vhd", 201, 151); // ce (w, ck)
+selectCodeEditor("neural.vhd", 261, 149); // ce (w, ck)
+selectCodeEditor("neural.vhd", 305, 141); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("neural.vhd", 386, 217); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 2); // k (j, ck)
+selectCodeEditor("Input.vhd", 241, 232); // ce (w, ck)
+selectCodeEditor("Input.vhd", 249, 245); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("Input.vhd", 212, 269); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("Input.vhd", 896, 264); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("Input.vhd", 213, 265); // ce (w, ck)
+// Elapsed time: 268 seconds
+selectCodeEditor("Input.vhd", 219, 277); // ce (w, ck)
+// Elapsed time: 43 seconds
+selectCodeEditor("Input.vhd", 102, 385); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ck):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Input' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Input_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Input 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot Input_behav 
+// Tcl Message:  ****** Webtalk v2018.2 (64-bit)   **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018   **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/xsim.dir/Input_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 55.543 ; gain = 1.063 INFO: [Common 17-206] Exiting Webtalk at Wed May 29 14:55:22 2019... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 924.652 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "Input_behav -key {Behavioral:sim_1:Functional:Input} -tclbatch {Input.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 683 MB. GUI used memory: 51 MB. Current time: 5/29/19 2:55:24 PM IRDT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source Input.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'Input_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 924.652 ; gain = 0.000 
+// 'd' command handler elapsed time: 16 seconds
+// Elapsed time: 16 seconds
+dismissDialog("Run Simulation"); // e (ck)
+// Elapsed time: 23 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - Input", "DesignTask.SIMULATION");
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Elapsed time: 10 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Project Manager", "Project Manager", "DesignTask.PROJECT_MANAGER");
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (ck): Close Project: addNotify
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 925.617 ; gain = 0.102 
+// 'b' command handler elapsed time: 7 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+dismissDialog("Close Project"); // A (ck)
+selectCodeEditor("Input.vhd", 179, 295); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 46 seconds
+selectCodeEditor("Input.vhd", 145, 321); // ce (w, ck)
+selectCodeEditor("Input.vhd", 246, 119); // ce (w, ck)
+// Elapsed time: 71 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // J
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 1); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 1, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 1, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// 'h' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Elapsed time: 346 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 10); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 11); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 11); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 10); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Input.vhd]", 3, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Input.vhd]", 3, false); // B (D, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Input.vhd]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 1); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 1, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("Input.vhd", 188, 179); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 43 seconds
+selectCodeEditor("Input.vhd", 117, 349); // ce (w, ck)
+selectCodeEditor("Input.vhd", 117, 349); // ce (w, ck)
+// Elapsed time: 54 seconds
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 36 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 23 seconds
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("Input.vhd", 164, 178); // ce (w, ck)
+selectCodeEditor("Input.vhd", 74, 184); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Input.vhd", 236, 178); // ce (w, ck)
+selectCodeEditor("Input.vhd", 202, 184); // ce (w, ck)
+selectCodeEditor("Input.vhd", 213, 182); // ce (w, ck)
+selectCodeEditor("Input.vhd", 355, 179); // ce (w, ck)
+selectCodeEditor("Input.vhd", 472, 180); // ce (w, ck)
+selectCodeEditor("Input.vhd", 435, 188); // ce (w, ck)
+selectCodeEditor("Input.vhd", 485, 181); // ce (w, ck)
+// Elapsed time: 45 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 19 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 44 seconds
+typeControlKey((HResource) null, "Input.vhd", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Input.vhd", 321, 272); // ce (w, ck)
+selectCodeEditor("Input.vhd", 192, 235); // ce (w, ck)
+// Replace in Files: addNotify
+// Elapsed time: 23 seconds
+typeControlKey(null, null, 'z');
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "-0.05009506  0.06229772 -0.0626516   0.45941448 -0.3453443  -0.3853578   -0.08171016 -0.05097225                            -0.23506312  0.12299766  0.18684718 -0.15129495  0.28006473  0.30475447  -0.1648891   0.2405248                             -0.059511   -0.04555352 -0.19750983  0.03688432  0.166731    0.14389813   0.19836815 -0.19307654                            -0.0608201  -0.6685579  -0.14629643  0.2732291  -0.1487119  -0.5028979   -0.19989286 -0.60279423                            -0.01670908  0.25028083  0.06285841  0.08058461  0.05506877  0.09961189   0.21074672  0.26627186", -1); // JComboBox (r, q)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_CLOSE, "Close"); // x (q)
+// 'e' command handler elapsed time: 20 seconds
+selectCodeEditor("Input.vhd", 563, 209); // ce (w, ck)
+selectCodeEditor("Input.vhd", 595, 173); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Input.vhd", 601, 232); // ce (w, ck)
+selectCodeEditor("Input.vhd", 187, 234); // ce (w, ck)
+// Replace in Files: addNotify
+// Elapsed time: 10 seconds
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "single_float_to_slv", -1); // JComboBox (r, q)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find"); // v (q)
+selectButton("PAResourceEtoH.FindAndReplaceAllDialog_NOTHING_TO_FIND_FIND_WHAT_FIELD_OK", "OK"); // JButton (A, H)
+selectComboBox("pa.FindAndReplaceAllDialog_REPLACE_COMBO_BOX", "single_float_to_slv", -1); // JComboBox (r, q)
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_FIND, "Find"); // v (q)
+// k (ck): Text Changed: addNotify

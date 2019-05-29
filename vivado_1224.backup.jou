@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed May 29 10:52:08 2019
+# Process ID: 1224
+# Current directory: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4680 C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.xpr
+# Log file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/vivado.log
+# Journal file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.xpr
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural.vhd]
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/lstm.vhd]
+close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd w ]
+add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd w ]
+add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd]
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd]
+export_ip_user_files -of_objects  [get_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd
+file delete -force C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_add.vhd
+close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_matrix_1_8.vhd w ]
+add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_matrix_1_8.vhd
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_matrix_1_8.vhd]
+close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd w ]
+add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd]
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd]
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/lstm.vhd]
+launch_simulation
+source add_matrix_1_8.tcl
+add_force {/add_matrix_1_8/in_1[0]} -radix hex {1 0ns}
+add_force {/add_matrix_1_8/in_1[1]} -radix hex {2 0ns}
+add_force {/add_matrix_1_8/in_1[2]} -radix hex {3 0ns}
+add_force {/add_matrix_1_8/in_2[0]} -radix hex {4 0ns}
+add_force {/add_matrix_1_8/in_2[0]} -radix hex {1 0ns}
+add_force {/add_matrix_1_8/in_2[1]} -radix hex {2 0ns}
+add_force {/add_matrix_1_8/in_2[2]} -radix hex {3 0ns}
+run 1000 us
+close_sim
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_matrix_1_8.vhd]
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd]
+set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd]
+launch_simulation
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd]
+close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd w ]
+add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural.vhd]
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd]
+set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural.vhd]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd w ]
+add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd]
+set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd]
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd]
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd]
+launch_simulation
+launch_simulation
+source Input.tcl
+close_sim
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd]
+set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd]
