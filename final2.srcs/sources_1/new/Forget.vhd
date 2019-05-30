@@ -45,7 +45,7 @@ end Forget;
                    
 
 architecture Behavioral of Forget is
-function init_wf return matrix_4_8 is
+function init_w return matrix_4_8 is
     file vec_file: text open read_mode is "C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.srcs\sources_1\new\wf_file.txt";
     variable iline: line;
     variable data_read: real;
@@ -66,7 +66,7 @@ function init_wf return matrix_4_8 is
     end loop;
     return res_t;
   end function;
-function init_bf return matrix_1_8 is
+function init_b return matrix_1_8 is
       file vec_file: text open read_mode is "C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.srcs\sources_1\new\bf_file.txt";
       variable iline: line;
       variable data_read: real;
@@ -81,7 +81,7 @@ function init_bf return matrix_1_8 is
       end loop;
       return res_t;
     end function;
-function init_uf return matrix_8_8 is
+function init_u return matrix_8_8 is
         file vec_file: text open read_mode is "C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.srcs\sources_1\new\uf_file.txt";
         variable iline: line;
         variable data_read: real;
@@ -104,9 +104,9 @@ function init_uf return matrix_8_8 is
       end function;
 
 
-signal wf : matrix_4_8;     
-signal uf : matrix_8_8;
-signal bf : matrix_1_8; 
+signal w : matrix_4_8;     
+signal u : matrix_8_8;
+signal b : matrix_1_8; 
 
 signal res1, res2 : matrix_1_8 ;
 
@@ -133,12 +133,12 @@ end component;
 begin
 
 
-wf <= init_wf;
-uf <= init_uf;
-bf <= init_bf;
-mul_module0 : multiply_matrix_1_4_8 port map ( in1 => xt, in2 => wf, out_multiply => res1);
-mul_module1 : multiply_matrix_1_8_8 port map ( in1 => ht_1, in2 => uf, out_multiply => res2);
-add_module : add_3_matrix_1_8 port map ( in1 => res1, in2 => res2, in3 => bf, out_add => f_out);
+w <= init_w;
+u <= init_u;
+b <= init_b;
+mul_module0 : multiply_matrix_1_4_8 port map ( in1 => xt, in2 => w, out_multiply => res1);
+mul_module1 : multiply_matrix_1_8_8 port map ( in1 => ht_1, in2 => u, out_multiply => res2);
+add_module : add_3_matrix_1_8 port map ( in1 => res1, in2 => res2, in3 => b, out_add => f_out);
 
 
 end Behavioral;

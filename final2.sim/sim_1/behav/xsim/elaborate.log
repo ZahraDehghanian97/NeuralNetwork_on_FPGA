@@ -1,6 +1,6 @@
 Vivado Simulator 2018.2
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 27609502018a4cb5956c944967b2b5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Forget_behav xil_defaultlib.Forget -log elaborate.log 
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 27609502018a4cb5956c944967b2b5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Ft_behav xil_defaultlib.Ft -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -13,6 +13,7 @@ Compiling package ieee.std_logic_1164
 Compiling package ieee.math_real
 Compiling package ieee.numeric_std
 Compiling package xil_defaultlib.neurals_utils
+Compiling architecture high_level_sim of entity xil_defaultlib.sigmoid_module [sigmoid_module_default]
 Compiling architecture high_level_sim of entity xil_defaultlib.multiplier_module [multiplier_module_default]
 Compiling architecture high_level_sim of entity xil_defaultlib.add_module [add_module_default]
 Compiling architecture behavioral of entity xil_defaultlib.add_module_4 [add_module_4_default]
@@ -20,5 +21,6 @@ Compiling architecture behavioral of entity xil_defaultlib.multiply_matrix_1_4_8
 Compiling architecture behavioral of entity xil_defaultlib.add_module_8 [add_module_8_default]
 Compiling architecture behavioral of entity xil_defaultlib.multiply_matrix_1_8_8 [multiply_matrix_1_8_8_default]
 Compiling architecture behavioral of entity xil_defaultlib.add_3_matrix_1_8 [add_3_matrix_1_8_default]
-Compiling architecture behavioral of entity xil_defaultlib.forget
-Built simulation snapshot Forget_behav
+Compiling architecture behavioral of entity xil_defaultlib.Forget [forget_default]
+Compiling architecture behavioral of entity xil_defaultlib.ft
+Built simulation snapshot Ft_behav

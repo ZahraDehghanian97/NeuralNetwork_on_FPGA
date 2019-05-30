@@ -2,7 +2,9 @@
 2018.2
 Jun 14 2018
 20:41:02
-C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Forget.vhd,1559239895,vhdl2008,,,,forget,,,,,,,,
+C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Forget.vhd,1559241053,vhdl2008,,,,forget,,,,,,,,
+C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Ft.vhd,1559247043,vhdl2008,,,,ft,,,,,,,,
+C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Input.vhd,1559241067,vhdl2008,,,,input,,,,,,,,
 C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_3_matrix_1_8.vhd,1559226700,vhdl2008,,,,add_3_matrix_1_8,,,,,,,,
 C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd,1558087252,vhdl2008,,,,add_module,,,,,,,,
 C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_4.vhd,1559133634,vhdl2008,,,,add_module_4,,,,,,,,
@@ -10,5 +12,6 @@ C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.s
 C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_multiply_1_4_8.vhd,1559133639,vhdl2008,,,,multiply_matrix_1_4_8,,,,,,,,
 C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd,1559133641,vhdl2008,,,,multiplier_module,,,,,,,,
 C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiply_matrix_1_8_4.vhd,1559133644,vhdl2008,,,,multiply_matrix_1_8_8,,,,,,,,
-C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural.vhd,1559110877,vhdl2008,C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Forget.vhd;C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd;C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_multiply_1_4_8.vhd;C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd;C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiply_matrix_1_8_4.vhd,,,neurals_utils,,,,,,,,
+C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural.vhd,1559110877,vhdl2008,C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Ft.vhd;C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/sigmoid_module.vhd,,,neurals_utils,,,,,,,,
+C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/sigmoid_module.vhd,1559242405,vhdl2008,,,,sigmoid_module,,,,,,,,
 C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/test_file.vhd,1559238880,vhdl2008,,,,test_file,,,,,,,,
