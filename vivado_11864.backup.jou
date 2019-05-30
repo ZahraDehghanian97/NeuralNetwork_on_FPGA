@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed May 29 17:13:04 2019
+# Process ID: 11864
+# Current directory: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9732 C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.xpr
+# Log file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/vivado.log
+# Journal file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiply_matrix_1_8_4.vhd C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_4.vhd C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_multiply_1_4_8.vhd C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_8.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_8.vhd]
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiply_matrix_1_8_4.vhd]
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_4.vhd]
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_multiply_1_4_8.vhd]
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_multiply_1_4_8.vhd]
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Forget.vhd]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiply_matrix_1_8_4.vhd]
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_multiply_1_4_8.vhd]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_8.vhd]
+set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd]
+update_compile_order -fileset sources_1
+launch_simulation
+source multiply_matrix_1_4_8.tcl
+add_force {/multiply_matrix_1_4_8/in1[0]} -radix hex {1 0ns}
+add_force {/multiply_matrix_1_4_8/in1[1]} -radix hex {2 0ns}
+add_force {/multiply_matrix_1_4_8/in1[2]} -radix hex {3 0ns}
+add_force {/multiply_matrix_1_4_8/in1[3]} -radix hex {4 0ns}
+add_force {/multiply_matrix_1_4_8/in2[0,0]} -radix hex {1 0ns}
+add_force {/multiply_matrix_1_4_8/in2[1,0]} -radix hex {2 0ns}
+add_force {/multiply_matrix_1_4_8/in2[2,0]} -radix hex {3 0ns}
+add_force {/multiply_matrix_1_4_8/in2[3,0]} -radix hex {4 0ns}
+run 1000 us
+run 1000 us
+close_sim
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_multiply_1_4_8.vhd]
+set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_4.vhd]
+launch_simulation
+source multiplier_module.tcl
+add_force {/multiplier_module/inputx} -radix hex {1 0ns}
+add_force {/multiplier_module/inputy} -radix hex {5 0ns}
+run 1000 us
+add_force {/multiplier_module/inputx} -radix hex {0100 0ns}
+add_force {/multiplier_module/inputy} -radix hex {0100 0ns}
+run 1000 us
+add_force {/multiplier_module/inputx} -radix hex {10000000 0ns}
+add_force {/multiplier_module/inputy} -radix hex {10000000 0ns}
+run 1000 us
+close_sim
+set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_multiply_1_4_8.vhd]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_4.vhd]
+update_compile_order -fileset sources_1
+launch_simulation
+source multiply_matrix_1_4_8.tcl
+add_force {/multiply_matrix_1_4_8/in1[0]} -radix hex {10000000 0ns}
+add_force {/multiply_matrix_1_4_8/in2[0,0]} -radix hex {10000000 0ns}
+run 1000 us
+close_sim

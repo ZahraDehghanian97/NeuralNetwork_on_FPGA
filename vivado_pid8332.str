@@ -1,0 +1,102 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 8332
+License: Customer
+
+Current time: 	Thu May 30 13:07:10 IRDT 2019
+Time zone: 	Iran Standard Time (Asia/Tehran)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 16 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	sepidmnoroozi
+User home directory: C:/Users/sepidmnoroozi
+User working directory: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/sepidmnoroozi/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/sepidmnoroozi/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/sepidmnoroozi/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/vivado.log
+Vivado journal file location: 	C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/vivado.jou
+Engine tmp dir: 	C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/.Xil/Vivado-8332-asusux301
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	171 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 466 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 52 MB (+52401kb) [00:00:22]
+// [Engine Memory]: 466 MB (+337066kb) [00:00:22]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 68 MB (+13395kb) [00:00:26]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 507 MB. GUI used memory: 33 MB. Current time: 5/30/19 1:07:14 PM IRDT
+// Tcl Message: open_project C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.xpr 
+// [Engine Memory]: 522 MB (+34541kb) [00:00:30]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bx)
+// [Engine Memory]: 558 MB (+9686kb) [00:00:36]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 624 MB (+40616kb) [00:00:39]
+selectButton("RDIResource.ProgressDialog_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_Yes", "Yes"); // JButton (A, G)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 516ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 36 MB. Current time: 5/30/19 1:07:31 PM IRDT
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. INFO: [Common 17-344] 'source' was cancelled INFO: [Common 17-344] 'tclapp::load_apps' was cancelled 
+// Tcl Message: 1 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// Tcl Message: INFO: [Common 17-344] 'open_project' was cancelled 
+dismissDialog("Open Project"); // bx (ck)
+closeMainWindow("final2 - [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.xpr] - Vivado 2018.2"); // ck
+// HOptionPane Warning: 'A background task is running. Please wait until it completes to exit Vivado. If you choose to abort background task and exit immediately, you will lose all unsaved changes to project. (Background Task)'

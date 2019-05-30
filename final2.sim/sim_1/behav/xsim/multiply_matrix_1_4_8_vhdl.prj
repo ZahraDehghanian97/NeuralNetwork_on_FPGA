@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../final2.srcs/sources_1/new/add_module_4.vhd" \
+"../../../../final2.srcs/sources_1/new/neural.vhd" \
+"../../../../final2.srcs/sources_1/new/multiplier_module.vhd" \
+"../../../../final2.srcs/sources_1/new/matrix_multiply_1_4_8.vhd" \
+
+# Do not sort compile order
+nosort

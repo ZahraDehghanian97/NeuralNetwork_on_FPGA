@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May 30 13:06:33 2019
+# Process ID: 9636
+# Current directory: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8772 C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.xpr
+# Log file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/vivado.log
+# Journal file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.xpr
+SScanning sources...FFinished scanning sourcesINFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+IINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 831.266 ; gain = 90.898
+exexiININFO: [Common 17-206] Exiting Vivado at Thu May 30 13:07:45 2019...
+ 17-344] 'open_project' was cancelled

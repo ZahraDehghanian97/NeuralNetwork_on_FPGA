@@ -59,10 +59,35 @@ constant wf : matrix_4_8 := ( ( single_float_to_slv(-0.02987039), single_float_t
                                ( single_float_to_slv(-0.0608201), single_float_to_slv(-0.6685579), single_float_to_slv(-0.14629643), single_float_to_slv(0.2732291), single_float_to_slv(-0.1487119), single_float_to_slv(-0.5028979), single_float_to_slv(-0.19989286), single_float_to_slv(-0.60279423) ),
                                ( single_float_to_slv(-0.01670908), single_float_to_slv(0.25028083), single_float_to_slv(0.06285841), single_float_to_slv(0.08058461), single_float_to_slv(0.05506877), single_float_to_slv(0.09961189), single_float_to_slv(0.21074672), single_float_to_slv(0.26627186) )
                              );
+ constant bf : matrix_1_8 := ( single_float_to_slv(1.1545736), single_float_to_slv(1.2713808), single_float_to_slv(1.0521708), single_float_to_slv(1.2388046), single_float_to_slv(1.3204008), single_float_to_slv(1.2830889), single_float_to_slv(1.1497107), single_float_to_slv(1.1425042) );
+
 signal res1, res2 : matrix_1_8 ;
 
+component multiply_matrix_1_4_8 is
+    Port ( 
+        in1 : in matrix_1_4;
+        in2 : in matrix_4_8;
+        out_multiply : out matrix_1_8 );
+end component;
+component multiply_matrix_1_8_8 is
+    Port ( 
+        in1 : in matrix_1_8;
+        in2 : in matrix_8_8;
+        out_multiply : out matrix_1_8 );
+end component;
+component add_3_matrix_1_8 is
+Port (
+  in1 : in matrix_1_8;
+  in2 : in matrix_1_8;
+  in3 : in matrix_1_8;
+  out_add : out matrix_1_8
+  );
+end component;
 begin
 
+mul_module0 : multiply_matrix_1_4_8 port map ( in1 => xt, in2 => wf, out_multiply => res1);
+mul_module1 : multiply_matrix_1_8_8 port map ( in1 => ht_1, in2 => uf, out_multiply => res2);
+add_module : add_3_matrix_1_8 port map ( in1 => res1, in2 => res2, in3 => bf, out_add => f_out);
 
 
 end Behavioral;
