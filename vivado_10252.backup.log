@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May 30 22:27:40 2019
+# Process ID: 10252
+# Current directory: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4672 C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.xpr
+# Log file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/vivado.log
+# Journal file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_4.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_8.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_multiply_1_4_8.vhd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiply_matrix_1_8_4.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 795.141 ; gain = 116.973
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 30 22:30:07 2019...

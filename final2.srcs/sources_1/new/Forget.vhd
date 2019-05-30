@@ -25,7 +25,8 @@ use work.neurals_utils.all;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
-
+library std;
+use std.textio.all;
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx leaf cells in this code.
 --library UNISIM;
@@ -44,22 +45,68 @@ end Forget;
                    
 
 architecture Behavioral of Forget is
-constant wf : matrix_4_8 := ( ( single_float_to_slv(-0.02987039), single_float_to_slv(0.04314025), single_float_to_slv(0.53898245), single_float_to_slv(0.41512847), single_float_to_slv(-0.80487585), single_float_to_slv(-0.09355235), single_float_to_slv(-0.41942886), single_float_to_slv(-0.357487) ),
-                              ( single_float_to_slv(0.73685104), single_float_to_slv(0.3203586), single_float_to_slv(-0.49644002), single_float_to_slv(-0.05589191), single_float_to_slv(0.5361538), single_float_to_slv(0.4786008), single_float_to_slv(0.18015783), single_float_to_slv(0.536344) ),
-                              ( single_float_to_slv(-0.27975634), single_float_to_slv(-0.32213825), single_float_to_slv(0.44963884), single_float_to_slv(-0.1668127), single_float_to_slv(-0.72459227), single_float_to_slv(-0.5951743), single_float_to_slv(-0.12105721), single_float_to_slv(-0.8235756) ),
-                              ( single_float_to_slv(-0.1605476), single_float_to_slv(0.14743894), single_float_to_slv(0.2773945), single_float_to_slv(0.29888842), single_float_to_slv(0.533289), single_float_to_slv(0.8247989), single_float_to_slv(0.08690736), single_float_to_slv(0.56370485) )
-                            );
-                            
- constant uf : matrix_8_8 := ( ( single_float_to_slv(0.12014879), single_float_to_slv(-0.0524535), single_float_to_slv(-0.12467378), single_float_to_slv(-0.03299288), single_float_to_slv(0.4924234), single_float_to_slv(-0.24017411), single_float_to_slv(0.03967816), single_float_to_slv(0.35719723) ),
-                               ( single_float_to_slv(-0.1104935), single_float_to_slv(0.12806204), single_float_to_slv(0.16687083), single_float_to_slv(0.3333305), single_float_to_slv(-0.02045518), single_float_to_slv(-0.16147594), single_float_to_slv(-0.13974743), single_float_to_slv(-0.38790867) ),
-                               ( single_float_to_slv(0.2634898), single_float_to_slv(0.23817575), single_float_to_slv(-0.07626809), single_float_to_slv(0.05557626), single_float_to_slv(-0.04142026), single_float_to_slv(0.2815075), single_float_to_slv(0.05502056), single_float_to_slv(0.34272337) ),
-                               ( single_float_to_slv(-0.05009506), single_float_to_slv(0.06229772), single_float_to_slv(-0.0626516), single_float_to_slv(0.45941448), single_float_to_slv(-0.3453443), single_float_to_slv(-0.3853578), single_float_to_slv(-0.08171016),single_float_to_slv(-0.05097225) ),
-                               ( single_float_to_slv(-0.23506312), single_float_to_slv(0.12299766), single_float_to_slv(0.18684718), single_float_to_slv(-0.15129495), single_float_to_slv(0.28006473), single_float_to_slv(0.30475447), single_float_to_slv(-0.1648891), single_float_to_slv(0.2405248) ), 
-                               ( single_float_to_slv(-0.059511), single_float_to_slv(-0.04555352), single_float_to_slv(-0.19750983),  single_float_to_slv(0.03688432),  single_float_to_slv(0.166731), single_float_to_slv(0.14389813), single_float_to_slv(0.19836815), single_float_to_slv(-0.19307654) ),
-                               ( single_float_to_slv(-0.0608201), single_float_to_slv(-0.6685579), single_float_to_slv(-0.14629643), single_float_to_slv(0.2732291), single_float_to_slv(-0.1487119), single_float_to_slv(-0.5028979), single_float_to_slv(-0.19989286), single_float_to_slv(-0.60279423) ),
-                               ( single_float_to_slv(-0.01670908), single_float_to_slv(0.25028083), single_float_to_slv(0.06285841), single_float_to_slv(0.08058461), single_float_to_slv(0.05506877), single_float_to_slv(0.09961189), single_float_to_slv(0.21074672), single_float_to_slv(0.26627186) )
-                             );
- constant bf : matrix_1_8 := ( single_float_to_slv(1.1545736), single_float_to_slv(1.2713808), single_float_to_slv(1.0521708), single_float_to_slv(1.2388046), single_float_to_slv(1.3204008), single_float_to_slv(1.2830889), single_float_to_slv(1.1497107), single_float_to_slv(1.1425042) );
+function init_wf return matrix_4_8 is
+    file vec_file: text open read_mode is "C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.srcs\sources_1\new\wf_file.txt";
+    variable iline: line;
+    variable data_read: real;
+    variable y: integer := 0;
+    variable x: integer := 0;
+    variable res_t : matrix_4_8 ;
+  begin
+    while not endfile (vec_file) loop
+      readline (vec_file, iline);
+      read(iline,data_read);
+      res_t(x,y) := single_float_to_slv(data_read);
+      if ( y = 7 ) then
+        y := 0;
+        x := x + 1;
+      else 
+        y := y + 1;
+      end if;
+    end loop;
+    return res_t;
+  end function;
+function init_bf return matrix_1_8 is
+      file vec_file: text open read_mode is "C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.srcs\sources_1\new\bf_file.txt";
+      variable iline: line;
+      variable data_read: real;
+      variable x: integer := 0;
+      variable res_t : matrix_1_8 ;
+    begin
+      while not endfile (vec_file) loop
+        readline (vec_file, iline);
+        read(iline,data_read);
+        res_t(x) := single_float_to_slv(data_read);
+        x := x + 1;
+      end loop;
+      return res_t;
+    end function;
+function init_uf return matrix_8_8 is
+        file vec_file: text open read_mode is "C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.srcs\sources_1\new\uf_file.txt";
+        variable iline: line;
+        variable data_read: real;
+        variable y: integer := 0;
+        variable x: integer := 0;
+        variable res_t : matrix_8_8 ;
+      begin
+        while not endfile (vec_file) loop
+          readline (vec_file, iline);
+          read(iline,data_read);
+          res_t(x,y) := single_float_to_slv(data_read);
+          if ( y = 7 ) then
+            y := 0;
+            x := x + 1;
+          else 
+            y := y + 1;
+          end if;
+        end loop;
+        return res_t;
+      end function;
+
+
+signal wf : matrix_4_8;     
+signal uf : matrix_8_8;
+signal bf : matrix_1_8; 
 
 signal res1, res2 : matrix_1_8 ;
 
@@ -85,6 +132,10 @@ Port (
 end component;
 begin
 
+
+wf <= init_wf;
+uf <= init_uf;
+bf <= init_bf;
 mul_module0 : multiply_matrix_1_4_8 port map ( in1 => xt, in2 => wf, out_multiply => res1);
 mul_module1 : multiply_matrix_1_8_8 port map ( in1 => ht_1, in2 => uf, out_multiply => res2);
 add_module : add_3_matrix_1_8 port map ( in1 => res1, in2 => res2, in3 => bf, out_add => f_out);

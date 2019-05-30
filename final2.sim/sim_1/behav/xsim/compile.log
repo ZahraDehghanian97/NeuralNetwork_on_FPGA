@@ -1,10 +1,20 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_3_matrix_1_8.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity add_3_matrix_1_8
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity add_module
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity add_module_4
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_module_8.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity add_module_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/matrix_multiply_1_4_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity multiply_matrix_1_4_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiplier_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity multiplier_module
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/multiply_matrix_1_8_4.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity multiply_matrix_1_8_8
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Forget.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity Forget
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_wf'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Forget.vhd:56]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_wf'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Forget.vhd:57]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_bf'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Forget.vhd:76]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_bf'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Forget.vhd:77]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_uf'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Forget.vhd:92]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_uf'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Forget.vhd:93]
