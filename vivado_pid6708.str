@@ -1,0 +1,1074 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 6708
+License: Customer
+
+Current time: 	Fri May 31 10:35:09 IRDT 2019
+Time zone: 	Iran Standard Time (Asia/Tehran)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 191 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	zdehg
+User home directory: C:/Users/zdehg
+User working directory: D:/university/FPGA/finalProject/FinalProject_phase2/NeuralNetwork_on_FPGA
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.4
+RDI_DATADIR: C:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/zdehg/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/zdehg/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/zdehg/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	D:/university/FPGA/finalProject/FinalProject_phase2/NeuralNetwork_on_FPGA/vivado.log
+Vivado journal file location: 	D:/university/FPGA/finalProject/FinalProject_phase2/NeuralNetwork_on_FPGA/vivado.jou
+Engine tmp dir: 	D:/university/FPGA/finalProject/FinalProject_phase2/NeuralNetwork_on_FPGA/.Xil/Vivado-6708-DESKTOP-GECL5HC
+
+GUI allocated memory:	136 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 463 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 42 MB (+41933kb) [00:00:09]
+// [Engine Memory]: 456 MB (+326633kb) [00:00:09]
+// HOptionPane Warning: 'This project was created with a future version of Vivado. It will be opened in read-only mode for the protection of unrecognized data. Please use 'File | Save Project As...' if you need to alter a copy of this project. The project may or may not open reliably with this version of Vivado. OK to proceed and open the project? (Future Project Version)'
+// [GUI Memory]: 51 MB (+6796kb) [00:00:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 463 MB. GUI used memory: 32 MB. Current time: 5/31/19 10:35:12 AM IRDT
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: D:\university\FPGA\finalProject\FinalProject_phase2\NeuralNetwork_on_FPGA\final2.xpr. Version: Vivado v2018.2 
+selectButton("PAResourceOtoP.PABaseTab_THIS_PROJECT_WILL_BE_OPENED_IN_READ_ONLY_OK", "OK"); // JButton (A, G)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/university/FPGA/finalProject/FinalProject_phase2/NeuralNetwork_on_FPGA/final2.xpr 
+// [Engine Memory]: 509 MB (+31929kb) [00:01:41]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/university/FPGA/finalProject/FinalProject_phase2/NeuralNetwork_on_FPGA/final2.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 595 MB (+63555kb) [00:01:44]
+// [GUI Memory]: 54 MB (+298kb) [00:01:45]
+// [GUI Memory]: 57 MB (+25kb) [00:01:45]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'. 
+// [GUI Memory]: 60 MB (+206kb) [00:01:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 602 MB. GUI used memory: 37 MB. Current time: 5/31/19 10:36:44 AM IRDT
+// Project name: final2; location: D:/university/FPGA/finalProject/FinalProject_phase2/NeuralNetwork_on_FPGA; part: xc7vx485tffg1157-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 751.410 ; gain = 120.152 
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// z (cj): Project is Read-Only: addNotify
+// a (cj): Critical Messages: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceOtoP.Project_SAVE_PROJECT_AS, "Save Project As..."); // a (z)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_PROJECT_AS
+// aE (cj): Save Project As: addNotify
+dismissDialog("Project is Read-Only"); // z (cj)
+selectButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // q (af, aE)
+// Elapsed time: 16 seconds
+setFolderChooser("D:/university/FPGA/finalProject/FinalProject_phase2");
+// Elapsed time: 14 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "final2", true); // X (N, aE)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+// 'o' command handler elapsed time: 35 seconds
+// [GUI Memory]: 64 MB (+1558kb) [00:02:31]
+// TclEventType: PROJECT_RENAME
+dismissDialog("Save Project As"); // aE (cj)
+dismissDialog("Critical Messages"); // a (cj)
+// bs (cj):  Save Project As : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: save_project_as final2 D:/university/FPGA/finalProject/FinalProject_phase2/final2 -force 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 630 MB (+4699kb) [00:02:32]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_RENAME
+// [GUI Memory]: 71 MB (+3810kb) [00:02:37]
+// Tcl Message: save_project_as: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 771.508 ; gain = 5.094 
+// [GUI Memory]: 75 MB (+405kb) [00:02:38]
+// bs (cj):  Save Constraints : addNotify
+dismissDialog("Save Constraints"); // bs (cj)
+// Elapsed time: 48 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1); // B (D, cj)
+// [GUI Memory]: 80 MB (+1286kb) [00:03:30]
+// PAPropertyPanels.initPanels (sigmoid_module.vhd) elapsed time: 0.2s
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), F[0].module1 : sigmoid_module(high_level_sim) (sigmoid_module.vhd)]", 10, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), F[0].module1 : sigmoid_module(high_level_sim) (sigmoid_module.vhd)]", 10, false, false, false, false, false, true); // B (D, cj) - Double Click
+// [GUI Memory]: 85 MB (+576kb) [00:03:45]
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd)]", 2, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 86 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 2); // B (D, cj)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "it"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // c (cj)
+// Tcl Message: close [ open D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/it.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/it.vhd 
+// I (cj): Define Module: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 650 MB. GUI used memory: 45 MB. Current time: 5/31/19 10:40:52 AM IRDT
+// Elapsed time: 19 seconds
+setText(PAResourceAtoD.DefineModulesDialog_ENTITY_NAME, "It"); // X (N, I)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, it.vhd]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, it.vhd]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, it.vhd]", 4, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (bU, cj)
+// S (cj): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // bV (N, S)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (S)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/it.vhd] 
+dismissDialog("Set Type"); // S (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, cj)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (it.vhd)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (it.vhd)]", 2, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Forget.vhd", 2); // k (j, cj)
+// [GUI Memory]: 89 MB (+360kb) [00:07:50]
+// Elapsed time: 136 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), F[7].module1 : sigmoid_module(high_level_sim) (sigmoid_module.vhd)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), F[7].module1 : sigmoid_module(high_level_sim) (sigmoid_module.vhd)]", 3, false, false, false, false, false, true); // B (D, cj) - Double Click
+// [GUI Memory]: 94 MB (+589kb) [00:09:00]
+// Elapsed time: 72 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Forget.vhd", 2); // k (j, cj)
+typeControlKey(null, null, 'z');
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sigm", true); // l (aP, cj)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sig", true); // l (aP, cj)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sig"); // l (aP, cj)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sig"); // l (aP, cj)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sig"); // l (aP, cj)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sig"); // l (aP, cj)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "sig"); // l (aP, cj)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l (aP, cj)
+selectCodeEditor("Forget.vhd", 201, 143); // cd (w, cj)
+// [Engine Memory]: 662 MB (+1059kb) [00:10:48]
+// Elapsed time: 29 seconds
+selectCodeEditor("Forget.vhd", 524, 202); // cd (w, cj)
+typeControlKey((HResource) null, "Forget.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "it.vhd", 3); // k (j, cj)
+typeControlKey((HResource) null, "it.vhd", 'v'); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("it.vhd", 50, 127); // cd (w, cj)
+selectCodeEditor("it.vhd", 27, 233); // cd (w, cj)
+selectCodeEditor("it.vhd", 190, 336); // cd (w, cj)
+// Elapsed time: 23 seconds
+selectCodeEditor("it.vhd", 17, 187); // cd (w, cj)
+selectCodeEditor("it.vhd", 538, 200); // cd (w, cj)
+// Elapsed time: 156 seconds
+selectCodeEditor("it.vhd", 599, 337); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (it.vhd)]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (it.vhd)]", 2); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), F[7].module1 : sigmoid_module(high_level_sim) (sigmoid_module.vhd)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), F[7].module1 : sigmoid_module(high_level_sim) (sigmoid_module.vhd)]", 3, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 24 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd)]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd)]", 2); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd)]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd)]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (it.vhd)]", 2, true); // B (D, cj) - Node
+// [GUI Memory]: 99 MB (+383kb) [00:15:46]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Forget.vhd", 2); // k (j, cj)
+selectCodeEditor("Forget.vhd", 464, 135); // cd (w, cj)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "Ft", true); // l (aP, cj)
+// Elapsed time: 10 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l (aP, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 667 MB. GUI used memory: 45 MB. Current time: 5/31/19 10:51:12 AM IRDT
+// Elapsed time: 244 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 3); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Input.vhd]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Input.vhd]", 4, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "it.vhd", 3); // k (j, cj)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "it.vhd", 3, true, false); // k (j, cj) - Popup Trigger
+selectCodeEditor("it.vhd", 248, 235); // cd (w, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (it.vhd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (it.vhd)]", 2, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, cj)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as (cj): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (N, as): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (as)
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Remove Sources"); // as (cj)
+// Tcl Message: export_ip_user_files -of_objects  [get_files D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/it.vhd] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/it.vhd 
+// Tcl Message: file delete -force D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/it.vhd 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Input.vhd]", 4, false); // B (D, cj)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, Input.vhd]", 4, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled true [get_files  D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/Input.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "It"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 15 seconds
+dismissDialog("Add Sources"); // c (cj)
+// Tcl Message: close [ open D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/It.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/It.vhd 
+// I (cj): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (It.vhd)]", 3, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 2, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (It.vhd)]", 6, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (It.vhd)]", 6, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Input(Behavioral) (Input.vhd)]", 2, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (It.vhd)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (It.vhd)]", 3, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd)]", 2, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectCodeEditor("Ft.vhd", 486, 141); // cd (w, cj)
+typeControlKey((HResource) null, "Ft.vhd", 'c'); // cd (w, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (It.vhd)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (It.vhd)]", 3, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("It.vhd", 261, 101); // cd (w, cj)
+typeControlKey((HResource) null, "It.vhd", 'v'); // cd (w, cj)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+selectCodeEditor("It.vhd", 609, 319, false, false, false, true, false); // cd (w, cj) - Popup Trigger
+selectCodeEditor("It.vhd", 375, 347); // cd (w, cj)
+selectCodeEditor("It.vhd", 607, 317); // cd (w, cj)
+selectCodeEditor("It.vhd", 51, 125); // cd (w, cj)
+selectCodeEditor("It.vhd", 43, 197); // cd (w, cj)
+selectCodeEditor("It.vhd", 31, 259); // cd (w, cj)
+selectCodeEditor("It.vhd", 187, 303); // cd (w, cj)
+selectCodeEditor("It.vhd", 187, 299); // cd (w, cj)
+selectCodeEditor("It.vhd", 69, 112); // cd (w, cj)
+selectCodeEditor("It.vhd", 16, 179); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectCodeEditor("It.vhd", 70, 179); // cd (w, cj)
+selectCodeEditor("It.vhd", 361, 183); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectCodeEditor("It.vhd", 87, 247); // cd (w, cj)
+selectCodeEditor("It.vhd", 215, 304); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+selectCodeEditor("It.vhd", 240, 21); // cd (w, cj)
+// Elapsed time: 49 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+dismissDialog("Create Source File"); // F (c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Output"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 18 seconds
+dismissDialog("Add Sources"); // c (cj)
+// Tcl Message: close [ open D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/Output.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/Output.vhd 
+// I (cj): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (It.vhd)]", 2); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (It.vhd), module0 : Input(Behavioral) (Input.vhd)]", 3, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (It.vhd), module0 : Input(Behavioral) (Input.vhd)]", 3, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, It(Behavioral) (It.vhd)]", 2); // B (D, cj)
+selectCodeEditor("Input.vhd", 405, 29); // cd (w, cj)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // cd (w, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Output(Behavioral) (Output.vhd)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Output(Behavioral) (Output.vhd)]", 3, false, false, false, false, false, true); // B (D, cj) - Double Click
+typeControlKey((HResource) null, "Output.vhd", 'v'); // cd (w, cj)
+// Elapsed time: 15 seconds
+selectCodeEditor("Output.vhd", 49, 131); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("Output.vhd", 17, 196); // cd (w, cj)
+selectCodeEditor("Output.vhd", 29, 232); // cd (w, cj)
+selectCodeEditor("Output.vhd", 189, 261); // cd (w, cj)
+// Elapsed time: 26 seconds
+selectCodeEditor("Output.vhd", 486, 315); // cd (w, cj)
+selectCodeEditor("Output.vhd", 277, 353); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Ot"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 10 seconds
+dismissDialog("Add Sources"); // c (cj)
+// Tcl Message: close [ open D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/Ot.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/Ot.vhd 
+// I (cj): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd)]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd)]", 4, false, false, false, false, false, true); // B (D, cj) - Double Click
+// [GUI Memory]: 105 MB (+547kb) [00:27:18]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ft.vhd", 5); // k (j, cj)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ft.vhd", 5, false, true); // k (j, cj) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// Run Command: RDIResourceCommand.RDICommands_COPY
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ot.vhd", 7); // k (j, cj)
+typeControlKey((HResource) null, "Ot.vhd", 'v'); // cd (w, cj)
+typeControlKey(null, null, 'z');
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ft.vhd", 5); // k (j, cj)
+selectCodeEditor("Ft.vhd", 354, 86); // cd (w, cj)
+selectCodeEditor("Ft.vhd", 353, 86, false, false, false, false, true); // cd (w, cj) - Double Click
+typeControlKey((HResource) null, "Ft.vhd", 'c'); // cd (w, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 687 MB. GUI used memory: 48 MB. Current time: 5/31/19 11:02:32 AM IRDT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ot.vhd", 7); // k (j, cj)
+typeControlKey((HResource) null, "Ot.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("Ot.vhd", 569, 87); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("Ot.vhd", 52, 80); // cd (w, cj)
+// Elapsed time: 14 seconds
+selectCodeEditor("Ot.vhd", 45, 147); // cd (w, cj)
+selectCodeEditor("Ot.vhd", 29, 216); // cd (w, cj)
+selectCodeEditor("Ot.vhd", 188, 239); // cd (w, cj)
+selectCodeEditor("Ot.vhd", 70, 141); // cd (w, cj)
+selectCodeEditor("Ot.vhd", 18, 214); // cd (w, cj)
+selectCodeEditor("Ot.vhd", 72, 197); // cd (w, cj)
+selectCodeEditor("Ot.vhd", 363, 191); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("Ot.vhd", 81, 250); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 55 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Candidate"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 12 seconds
+dismissDialog("Add Sources"); // c (cj)
+// Tcl Message: close [ open D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/Candidate.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/Candidate.vhd 
+// I (cj): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Output.vhd", 6); // k (j, cj)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Output.vhd", 6, false, true); // k (j, cj) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Output.vhd", 638, 125); // cd (w, cj)
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "Output.vhd", 'c'); // cd (w, cj)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // D
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Candidate(Behavioral) (Candidate.vhd)]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Candidate(Behavioral) (Candidate.vhd)]", 4, false, false, false, false, false, true); // B (D, cj) - Double Click
+typeControlKey((HResource) null, "Candidate.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("Candidate.vhd", 546, 339); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectCodeEditor("Candidate.vhd", 18, 261); // cd (w, cj)
+selectCodeEditor("Candidate.vhd", 191, 334); // cd (w, cj)
+selectCodeEditor("Candidate.vhd", 51, 198); // cd (w, cj)
+selectCodeEditor("Candidate.vhd", 27, 299); // cd (w, cj)
+selectCodeEditor("Candidate.vhd", 467, 196); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 34 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Ct"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 11 seconds
+dismissDialog("Add Sources"); // c (cj)
+// Tcl Message: close [ open D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/Ct.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/Ct.vhd 
+// I (cj): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 32 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ct(Behavioral) (Ct.vhd)]", 5, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ct(Behavioral) (Ct.vhd)]", 5, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ft.vhd", 3); // k (j, cj)
+selectCodeEditor("Ft.vhd", 251, 185); // cd (w, cj)
+typeControlKey((HResource) null, "Ft.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ct.vhd", 7); // k (j, cj)
+selectCodeEditor("Ct.vhd", 455, 134); // cd (w, cj)
+typeControlKey((HResource) null, "Ct.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 208, 307); // cd (w, cj)
+// Elapsed time: 61 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), F[7].module1 : sigmoid_module(high_level_sim) (sigmoid_module.vhd)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), F[7].module1 : sigmoid_module(high_level_sim) (sigmoid_module.vhd)]", 3, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 34 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "tanh_module"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 13 seconds
+dismissDialog("Add Sources"); // c (cj)
+// Tcl Message: close [ open D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/tanh_module.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/tanh_module.vhd 
+// I (cj): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tanh_module(Behavioral) (tanh_module.vhd)]", 15, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tanh_module(Behavioral) (tanh_module.vhd)]", 15, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("tanh_module.vhd", 108, 257); // cd (w, cj)
+typeControlKey((HResource) null, "tanh_module.vhd", 'v'); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ct.vhd", 7); // k (j, cj)
+selectCodeEditor("Ct.vhd", 73, 217); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 69, 248); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 109, 359); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 385, 248); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 126, 299); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 92, 283); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 256, 251); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("Ct.vhd", 98, 11); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 96, 42); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 92, 248); // cd (w, cj)
+// Elapsed time: 11 seconds
+selectCodeEditor("Ct.vhd", 60, 373); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 87, 368); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 86, 367); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 320, 286); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Ct.vhd", 422, 81); // cd (w, cj)
+// Elapsed time: 239 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Candidate.vhd", 6); // k (j, cj)
+selectCodeEditor("Candidate.vhd", 549, 287); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Output.vhd", 4); // k (j, cj)
+selectCodeEditor("Output.vhd", 460, 173); // cd (w, cj)
+selectCodeEditor("Output.vhd", 611, 110); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 698 MB (+3368kb) [00:41:39]
+// HMemoryUtils.trashcanNow. Engine heap size: 698 MB. GUI used memory: 49 MB. Current time: 5/31/19 11:32:32 AM IRDT
+// Elapsed time: 1924 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 5); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 5); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, lstm.vhd]", 7, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, lstm.vhd]", 7, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled true [get_files  D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/lstm.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 48 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd)]", 5, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd)]", 5, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 85 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd)]", 2, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ft(Behavioral) (Ft.vhd)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 178 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd)]", 5, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd)]", 5, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 97 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, dot_multiplier_1_8.vhd]", 7, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, dot_multiplier_1_8.vhd]", 7, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("dot_multiplier_1_8.vhd", 70, 194); // cd (w, cj)
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("dot_multiplier_1_8.vhd", 29, 289); // cd (w, cj)
+selectCodeEditor("dot_multiplier_1_8.vhd", 50, 27); // cd (w, cj)
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 9); // k (j, cj)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("lstm.vhd", 174, 283); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ct.vhd", 5); // k (j, cj)
+// Elapsed time: 14 seconds
+selectCodeEditor("Ct.vhd", 635, 259); // cd (w, cj)
+selectCodeEditor("Ct.vhd", 614, 307); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("Ct.vhd", 44, 6); // cd (w, cj)
+typeControlKey((HResource) null, "Ct.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 6); // k (j, cj)
+selectCodeEditor("lstm.vhd", 71, 369); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 74, 234); // cd (w, cj)
+// Elapsed time: 71 seconds
+selectCodeEditor("lstm.vhd", 80, 366); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 194, 314); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 372, 346); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 150, 253); // cd (w, cj)
+typeControlKey(null, null, 'z');
+selectCodeEditor("lstm.vhd", 76, 219); // cd (w, cj)
+// Elapsed time: 21 seconds
+selectCodeEditor("lstm.vhd", 14, 93); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 306, 113); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 158, 273); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ot.vhd", 4); // k (j, cj)
+selectCodeEditor("Ot.vhd", 48, 144); // cd (w, cj)
+typeControlKey((HResource) null, "Ot.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 6); // k (j, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ft.vhd", 3); // k (j, cj)
+selectCodeEditor("Ft.vhd", 45, 44); // cd (w, cj)
+typeControlKey((HResource) null, "Ft.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 6); // k (j, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "It.vhd", 2); // k (j, cj)
+selectCodeEditor("It.vhd", 46, 141); // cd (w, cj)
+typeControlKey((HResource) null, "It.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 6); // k (j, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 698 MB. GUI used memory: 49 MB. Current time: 5/31/19 12:02:33 PM IRDT
+// Elapsed time: 850 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd)]", 4); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd)]", 5); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd)]", 5); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd)]", 5); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd)]", 8); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd), F[7].MODULE1 : add_module(high_level_sim) (add_module.vhd)]", 10, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd), F[7].MODULE1 : add_module(high_level_sim) (add_module.vhd)]", 10, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("add_module.vhd", 49, 144); // cd (w, cj)
+typeControlKey((HResource) null, "add_module.vhd", 'c'); // cd (w, cj)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 6); // k (j, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+// Elapsed time: 34 seconds
+selectCodeEditor("lstm.vhd", 179, 325); // cd (w, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd)]", 8); // B (D, cj)
+selectCodeEditor("lstm.vhd", 69, 277); // cd (w, cj)
+// Elapsed time: 29 seconds
+selectCodeEditor("lstm.vhd", 135, 213); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 308, 282); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 39, 321); // cd (w, cj)
+// Elapsed time: 139 seconds
+selectCodeEditor("lstm.vhd", 104, 127); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 100, 127); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 162, 131, false, true, false, false, false); // cd (w, cj) - Control Key
+selectCodeEditor("lstm.vhd", 239, 287); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 1, 314); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 7, 325); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 5, 317); // cd (w, cj)
+// Elapsed time: 79 seconds
+selectCodeEditor("lstm.vhd", 71, 128); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 183, 128); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 71, 126); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 9, 330); // cd (w, cj)
+// Elapsed time: 17 seconds
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 204, 297); // cd (w, cj)
+// Elapsed time: 11 seconds
+selectCodeEditor("lstm.vhd", 9, 319); // cd (w, cj)
+// Elapsed time: 36 seconds
+selectCodeEditor("lstm.vhd", 11, 321); // cd (w, cj)
+// Elapsed time: 40 seconds
+selectCodeEditor("lstm.vhd", 1, 351); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 5, 358); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 1, 353); // cd (w, cj)
+// Elapsed time: 22 seconds
+selectCodeEditor("lstm.vhd", 241, 322); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 131, 299); // cd (w, cj)
+// Elapsed time: 18 seconds
+selectCodeEditor("lstm.vhd", 27, 286); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 496, 288); // cd (w, cj)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("lstm.vhd", 25, 287); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 1, 303); // cd (w, cj)
+// Elapsed time: 19 seconds
+selectCodeEditor("lstm.vhd", 84, 282); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 486, 298); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 253, 299); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 301, 303); // cd (w, cj)
+// Elapsed time: 19 seconds
+selectCodeEditor("lstm.vhd", 461, 302); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 481, 300); // cd (w, cj)
+// Elapsed time: 35 seconds
+selectCodeEditor("lstm.vhd", 294, 191); // cd (w, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd)]", 8); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd)]", 8); // B (D, cj)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd)]", 8, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd), F[7].MODULE1 : add_module(high_level_sim) (add_module.vhd)]", 10, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 65 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd)]", 8); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd)]", 5); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd)]", 5); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd), module0 : Output(Behavioral) (Output.vhd)]", 5); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Ot(Behavioral) (Ot.vhd)]", 4); // B (D, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 7); // k (j, cj)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, dot_multiplier_1_8.vhd]", 7, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, dot_multiplier_1_8.vhd]", 7, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled true [get_files  D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("dot_multiplier_1_8.vhd", 190, 135); // cd (w, cj)
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 6); // k (j, cj)
+// Elapsed time: 12 seconds
+selectCodeEditor("lstm.vhd", 438, 285); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 107, 183); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 435, 301); // cd (w, cj)
+// [GUI Memory]: 110 MB (+297kb) [01:52:49]
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 215, 183); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 214, 225); // cd (w, cj)
+// Elapsed time: 37 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dot_multiplier_1_8(Behavioral) (dot_multiplier_1_8.vhd)]", 5); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dot_multiplier_1_8(Behavioral) (dot_multiplier_1_8.vhd)]", 5); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd)]", 6, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd)]", 6, false, false, false, false, false, true); // B (D, cj) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dot_multiplier_1_8(Behavioral) (dot_multiplier_1_8.vhd)]", 5); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dot_multiplier_1_8(Behavioral) (dot_multiplier_1_8.vhd)]", 5); // B (D, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 7); // k (j, cj)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "dot_multiplier_1_8.vhd", 7, false, true); // k (j, cj) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// Elapsed time: 27 seconds
+selectCodeEditor("dot_multiplier_1_8.vhd", 48, 179); // cd (w, cj)
+typeControlKey((HResource) null, "dot_multiplier_1_8.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "add_3_matrix_1_8.vhd", 8); // k (j, cj)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 6); // k (j, cj)
+selectCodeEditor("lstm.vhd", 70, 198); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, dot_multiplier_1_8(Behavioral) (dot_multiplier_1_8.vhd)]", 5, true); // B (D, cj) - Node
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd)]", 1); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd)]", 1); // B (D, cj)
+// Elapsed time: 23 seconds
+selectCodeEditor("lstm.vhd", 398, 284); // cd (w, cj)
+// Elapsed time: 32 seconds
+selectCodeEditor("lstm.vhd", 377, 285); // cd (w, cj)
+// Elapsed time: 22 seconds
+selectCodeEditor("lstm.vhd", 68, 298); // cd (w, cj)
+// Elapsed time: 12 seconds
+selectCodeEditor("lstm.vhd", 11, 308); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 11, 308); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 9, 307); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 8, 307, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("lstm.vhd", 15, 305); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 119, 321); // cd (w, cj)
+// Elapsed time: 47 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), f1 : Ft(Behavioral) (Ft.vhd)]", 2); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), f1 : Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd)]", 3); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), f1 : Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd)]", 6, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), f1 : Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd), F[6].MODULE1 : add_module(high_level_sim) (add_module.vhd)]", 10, false, false, false, false, false, true); // B (D, cj) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 698 MB. GUI used memory: 50 MB. Current time: 5/31/19 12:32:33 PM IRDT
+// Elapsed time: 25 seconds
+typeControlKey((HResource) null, "add_3_matrix_1_8.vhd", 'c'); // cd (w, cj)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "add_2_matrix_1_8"); // X (N, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 14 seconds
+dismissDialog("Add Sources"); // c (cj)
+// Tcl Message: close [ open D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/add_2_matrix_1_8.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.srcs/sources_1/new/add_2_matrix_1_8.vhd 
+// I (cj): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), f1 : Ft(Behavioral) (Ft.vhd), module0 : Forget(Behavioral) (Forget.vhd), add_module : add_3_matrix_1_8(Behavioral) (add_3_matrix_1_8.vhd)]", 6); // B (D, cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), f1 : Ft(Behavioral) (Ft.vhd)]", 2); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_2_matrix_1_8(Behavioral) (add_2_matrix_1_8.vhd)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_2_matrix_1_8(Behavioral) (add_2_matrix_1_8.vhd)]", 2, false, false, false, false, false, true); // B (D, cj) - Double Click
+typeControlKey((HResource) null, "add_2_matrix_1_8.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("add_2_matrix_1_8.vhd", 9, 166); // cd (w, cj)
+selectCodeEditor("add_2_matrix_1_8.vhd", 17, 281); // cd (w, cj)
+selectCodeEditor("add_2_matrix_1_8.vhd", 555, 265); // cd (w, cj)
+selectCodeEditor("add_2_matrix_1_8.vhd", 17, 280); // cd (w, cj)
+selectCodeEditor("add_2_matrix_1_8.vhd", 18, 291); // cd (w, cj)
+selectCodeEditor("add_2_matrix_1_8.vhd", 16, 276); // cd (w, cj)
+selectCodeEditor("add_2_matrix_1_8.vhd", 282, 234); // cd (w, cj)
+selectCodeEditor("add_2_matrix_1_8.vhd", 1, 178); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("add_2_matrix_1_8.vhd", 494, 233); // cd (w, cj)
+selectCodeEditor("add_2_matrix_1_8.vhd", 84, 59); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("add_2_matrix_1_8.vhd", 2, 59); // cd (w, cj)
+selectCodeEditor("add_2_matrix_1_8.vhd", 28, 154); // cd (w, cj)
+selectCodeEditor("add_2_matrix_1_8.vhd", 25, 161); // cd (w, cj)
+typeControlKey((HResource) null, "add_2_matrix_1_8.vhd", 'c'); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 6); // k (j, cj)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("lstm.vhd", 115, 162); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("lstm.vhd", 353, 339); // cd (w, cj)
+// Elapsed time: 40 seconds
+selectCodeEditor("lstm.vhd", 232, 198); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 288, 335); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 370, 337); // cd (w, cj)
+// Elapsed time: 19 seconds
+selectCodeEditor("lstm.vhd", 375, 200); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 616, 336); // cd (w, cj)
+// Elapsed time: 57 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd)]", 1); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), c1 : Ct(Behavioral) (Ct.vhd)]", 5); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), c1 : Ct(Behavioral) (Ct.vhd), F[7].module1 : tanh_module(high_level_sim) (tanh_module.vhd)]", 7, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), c1 : Ct(Behavioral) (Ct.vhd), F[7].module1 : tanh_module(high_level_sim) (tanh_module.vhd)]", 7, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("tanh_module.vhd", 49, 148); // cd (w, cj)
+typeControlKey((HResource) null, "tanh_module.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 6); // k (j, cj)
+selectCodeEditor("lstm.vhd", 169, 216); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 130, 329); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 321, 329); // cd (w, cj)
+// Elapsed time: 52 seconds
+selectCodeEditor("lstm.vhd", 411, 168); // cd (w, cj)
+// Elapsed time: 11 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tanh_module.vhd", 7); // k (j, cj)
+selectCodeEditor("tanh_module.vhd", 490, 146); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 6); // k (j, cj)
+selectCodeEditor("lstm.vhd", 437, 166); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 465, 183); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 448, 315); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 620, 337); // cd (w, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), c1 : Ct(Behavioral) (Ct.vhd), module0 : Candidate(Behavioral) (Candidate.vhd)]", 6, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), c1 : Ct(Behavioral) (Ct.vhd), module0 : Candidate(Behavioral) (Candidate.vhd)]", 6, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), c1 : Ct(Behavioral) (Ct.vhd)]", 5, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LSTM_Cell(Behavioral) (lstm.vhd), c1 : Ct(Behavioral) (Ct.vhd)]", 5, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 23 seconds
+selectCodeEditor("Ct.vhd", 2, 163); // cd (w, cj)
+// Elapsed time: 44 seconds
+typeControlKey((HResource) null, "Ct.vhd", 'c'); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 6); // k (j, cj)
+selectCodeEditor("lstm.vhd", 142, 313); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 399, 297); // cd (w, cj)
+// Elapsed time: 42 seconds
+selectCodeEditor("lstm.vhd", 642, 330); // cd (w, cj)
+// Elapsed time: 11 seconds
+selectCodeEditor("lstm.vhd", 0, 215); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 228, 327); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 35, 333); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 7, 331); // cd (w, cj)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 15, 335); // cd (w, cj)
+// Elapsed time: 43 seconds
+selectCodeEditor("lstm.vhd", 361, 282); // cd (w, cj)
+selectCodeEditor("lstm.vhd", 420, 377); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false, false, false, false, true, false); // u (O, cj) - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// e (cj):  Run Simulation : addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' 
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'LSTM_Cell' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj LSTM_Cell_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 823.203 ; gain = 0.035 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '5' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-99] Step results log file:'D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/university/FPGA/finalProject/FinalProject_phase2/final2/final2.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 830.906 ; gain = 9.531 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 16 seconds
+// Elapsed time: 16 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (cj): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cj)
+unMinimizeFrame(PAResourceOtoP.PAViews_TCL_CONSOLE, "Tcl Console"); // ax
+// TclEventType: FILE_SET_CHANGE
