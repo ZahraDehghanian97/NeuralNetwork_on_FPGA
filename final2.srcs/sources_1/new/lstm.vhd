@@ -107,6 +107,7 @@ component tanh_module is
            output : out std_logic_vector(31 downto 0));
 end component ;
 signal out_f, out_o,out_i,out_c ,out_ct_1_ht,out_it_ct,out_add,out_tanh: matrix_1_8;
+signal counter : integer := 0; 
 begin
 f1 : Ft port map (xt=>xt ,ht_1=>ht_1,out_ft=>out_f,clk=>clk,enable=> '1');
 i1 : It port map (xt=>xt ,ht_1=>ht_1,out_it=>out_i,clk=>clk,enable=> '1');
@@ -120,4 +121,15 @@ F: for I in 7 downto 0 generate
     module1: tanh_module port map( clk => clk, enable => '1', input => out_add(I), output => out_tanh(I));
    end generate F;
 d_out_tanh_ot : dot_multiplier_1_8 port map ( in_1 =>out_o,in_2=>out_tanh,out_dot_mul=> ht);
+
+process(clk)
+begin
+    if(rising_edge(clk)) then
+        if(counter = 11) then
+            ready <= '1';
+        else 
+            counter <= counter + 1;
+        end if;
+    end if;
+end process;
 end Behavioral;

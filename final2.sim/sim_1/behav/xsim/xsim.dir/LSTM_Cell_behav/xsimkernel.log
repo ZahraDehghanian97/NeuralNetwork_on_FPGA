@@ -1,0 +1,7 @@
+Running: xsim.dir/LSTM_Cell_behav/xsimk.exe -simmode gui -wdb LSTM_Cell_behav.wdb -simrunnum 0 -socket 3059
+Design successfully loaded
+Design Loading Memory Usage: 6028 KB (Peak: 6028 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 109012 KB (Peak: 109012 KB)
+Simulation CPU Usage: 1483 ms

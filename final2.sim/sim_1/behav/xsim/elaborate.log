@@ -1,6 +1,6 @@
 Vivado Simulator 2018.2
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 27609502018a4cb5956c944967b2b5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Ft_behav xil_defaultlib.Ft -log elaborate.log 
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 27609502018a4cb5956c944967b2b5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot LSTM_Cell_behav xil_defaultlib.LSTM_Cell -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -10,8 +10,8 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling package ieee.math_real
 Compiling package ieee.numeric_std
+Compiling package ieee.math_real
 Compiling package xil_defaultlib.neurals_utils
 Compiling architecture high_level_sim of entity xil_defaultlib.sigmoid_module [sigmoid_module_default]
 Compiling architecture high_level_sim of entity xil_defaultlib.multiplier_module [multiplier_module_default]
@@ -22,5 +22,15 @@ Compiling architecture behavioral of entity xil_defaultlib.add_module_8 [add_mod
 Compiling architecture behavioral of entity xil_defaultlib.multiply_matrix_1_8_8 [multiply_matrix_1_8_8_default]
 Compiling architecture behavioral of entity xil_defaultlib.add_3_matrix_1_8 [add_3_matrix_1_8_default]
 Compiling architecture behavioral of entity xil_defaultlib.Forget [forget_default]
-Compiling architecture behavioral of entity xil_defaultlib.ft
-Built simulation snapshot Ft_behav
+Compiling architecture behavioral of entity xil_defaultlib.Ft [ft_default]
+Compiling architecture behavioral of entity xil_defaultlib.Input [input_default]
+Compiling architecture behavioral of entity xil_defaultlib.It [it_default]
+Compiling architecture behavioral of entity xil_defaultlib.Output [output_default]
+Compiling architecture behavioral of entity xil_defaultlib.Ot [ot_default]
+Compiling architecture high_level_sim of entity xil_defaultlib.tanh_module [tanh_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.Candidate [candidate_default]
+Compiling architecture behavioral of entity xil_defaultlib.Ct [ct_default]
+Compiling architecture behavioral of entity xil_defaultlib.dot_multiplier_1_8 [dot_multiplier_1_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.add_2_matrix_1_8 [add_2_matrix_1_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.lstm_cell
+Built simulation snapshot LSTM_Cell_behav

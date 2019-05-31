@@ -1,4 +1,30 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/sigmoid_module.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity sigmoid_module
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Ft.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity Ft
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_2_matrix_1_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity add_2_matrix_1_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Candidate
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_w'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:54]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_w'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:55]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_b'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:74]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_b'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:75]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_u'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:90]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_u'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:91]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Ct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ct
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/It.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity It
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Ot.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ot
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Output
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_w'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:54]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_w'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:55]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_b'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:74]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_b'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:75]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_u'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:90]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_u'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:91]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dot_multiplier_1_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/tanh_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tanh_module
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/lstm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LSTM_Cell

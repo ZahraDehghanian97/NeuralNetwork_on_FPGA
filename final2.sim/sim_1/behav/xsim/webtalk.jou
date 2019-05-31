@@ -2,11 +2,11 @@
 # Webtalk v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Fri May 31 00:42:23 2019
-# Process ID: 3820
+# Start of session at: Fri May 31 14:04:12 2019
+# Process ID: 12512
 # Current directory: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/xsim.dir/Ft_behav/webtalk/xsim_webtalk.tcl -notrace
+# Command line: wbtcv.exe -mode batch -source C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/xsim.dir/LSTM_Cell_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/xsim.dir/Ft_behav/webtalk/xsim_webtalk.tcl -notrace
+source C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/xsim.dir/LSTM_Cell_behav/webtalk/xsim_webtalk.tcl -notrace
