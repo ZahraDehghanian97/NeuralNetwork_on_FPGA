@@ -36,7 +36,8 @@ entity neural_network_lstm is
     clk : in std_logic;
     input : in array_20;
     output : out matrix_1_2;
-    enable : in std_logic
+    enable : in std_logic;
+    ready_out : out std_logic 
   );
 end neural_network_lstm;
 
@@ -51,6 +52,15 @@ component LSTM_Cell IS
  c_t : OUT matrix_1_8;
  ready : OUT STD_LOGIC;
  enable : in std_logic );
+end component;
+
+component classify is
+    Port ( 
+    clk : in std_logic;
+    enable : in std_logic;
+    ready : out std_logic;
+    ht : in matrix_1_8;
+    c_output : out matrix_1_2 );
 end component;
 
 type cel_ct is array (1 to 19) of matrix_1_8;
@@ -70,4 +80,11 @@ for_generate : for I in 2 to 19 generate
 moduleI : LSTM_Cell port map (clk => clk, xt => input(I), ct_1 => CELL_ct(I-1), ht_1 => CELL_ht(I-1),
                              ht => CELL_ht(I), c_t => CELL_ct(I), ready => CELL_ready(I), enable => CELL_ready(I-1));  
 end generate;
+
+moduleclass : classify port map (clk => clk,
+    enable => CELL_ready(20),
+    ready => ready_out,
+    ht => CELL_ht(20),
+    c_output => output);
+    
 end Behavioral;

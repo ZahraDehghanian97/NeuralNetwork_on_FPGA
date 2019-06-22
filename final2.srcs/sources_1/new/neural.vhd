@@ -4,6 +4,7 @@ use ieee.math_real.all;
 use IEEE.numeric_std.all;
 
 package neurals_utils is
+  TYPE matrix_8_2 IS ARRAY (0 To 7, 0 To 1) Of real;
   TYPE matrix_1_2 IS ARRAY (0 to 1) of real;
   TYPE matrix_1_4 IS ARRAY (0 To 3) Of real;
   TYPE matrix_1_8 IS ARRAY (0 To 7) Of real;

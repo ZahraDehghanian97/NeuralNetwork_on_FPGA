@@ -49,16 +49,17 @@ F: for I in 7 downto 0 generate
     module1: sigmoid_module port map( clk => clk, enable => enable, input => res_forget(I), output => tmp_res(I));
    end generate F;
 process(clk)
-begin
-if (rising_edge(clk)) then
-    counter <= counter + 1;
-    if (counter = 7) then
-        out_ot <= tmp_res;
-    end if;
-end if;
-end process;
-
-
-
+   begin
+   if (rising_edge(clk)) then
+       if(enable ='1') then
+           counter <= counter + 1;
+           if (counter = 7) then
+               out_ot <= tmp_res;
+           end if;
+       else
+           counter <= 0;
+       end if;
+   end if;
+   end process;
 
 end Behavioral;

@@ -51,14 +51,15 @@ F: for I in 7 downto 0 generate
 process(clk)
 begin
 if (rising_edge(clk)) then
-    counter <= counter + 1;
-    if (counter = 7) then
-        out_ct <= tmp_res;
+    if(enable ='1') then
+        counter <= counter + 1;
+        if (counter = 7) then
+            out_ct <= tmp_res;
+        end if;
+    else
+        counter <= 0;
     end if;
 end if;
 end process;
-
-
-
 
 end Behavioral;
