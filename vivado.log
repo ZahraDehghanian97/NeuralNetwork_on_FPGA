@@ -21,3 +21,7 @@ update_compile_order -fileset sources_1
 set_property is_enabled false [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/lstm.vhd]
 update_compile_order -fileset sources_1
 set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_2_matrix_1_8.vhd]
+close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural_network_lstm.vhd w ]
+add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural_network_lstm.vhd
+update_compile_order -fileset sources_1
+set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural_network_lstm.vhd]

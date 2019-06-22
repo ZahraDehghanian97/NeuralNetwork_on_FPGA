@@ -706,3 +706,418 @@ selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vh
 selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 2, false, true); // k (j, ck) - Double Click
 unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
 maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+// Elapsed time: 107 seconds
+unMaximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+// Elapsed time: 176 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 2, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Candidate.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+// Elapsed time: 78 seconds
+unMaximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // J
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Candidate.vhd", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Candidate.vhd", 0, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Candidate.vhd", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Candidate.vhd", 0, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 13 seconds
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "neural"); // X (Q, F)
+// Elapsed time: 76 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "neural_network_lstm"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 90 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural_network_lstm.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural_network_lstm.vhd 
+// I (ck): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 110 MB (+1122kb) [00:43:46]
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced]", 3, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, neural_network_lstm.vhd]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, neural_network_lstm.vhd]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, Unreferenced, neural_network_lstm.vhd]", 4, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Source File Properties..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aw (aE, ck)
+selectButton(PAResourceQtoS.SrcFilePropPanels_TYPE, (String) null); // q (ch, ck)
+// Y (ck): Set Type: addNotify
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL", 3); // ci (Q, Y)
+selectComboBox(PAResourceQtoS.SrcFileTypeComboBox_SOURCE_FILE_TYPE, "VHDL 2008", 4); // ci (Q, Y)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (Y)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property file_type {VHDL 2008} [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/neural_network_lstm.vhd] 
+dismissDialog("Set Type"); // Y (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("neural_network_lstm.vhd", 69, 266); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, neural.vhd]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, neural.vhd]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("neural.vhd", 384, 168); // ce (w, ck)
+// Elapsed time: 62 seconds
+selectCodeEditor("neural.vhd", 181, 183); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 70 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+selectCodeEditor("neural_network_lstm.vhd", 46, 75); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 258, 90); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 180, 65); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 130, 86); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Input.vhd]", 15, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Input.vhd]", 15, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 4, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 4, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 4); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 4, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("Input.vhd", 145, 181); // ce (w, ck)
+selectCodeEditor("Input.vhd", 196, 87); // ce (w, ck)
+typeControlKey((HResource) null, "Input.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+selectCodeEditor("neural_network_lstm.vhd", 57, 75); // ce (w, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'v'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 4); // k (j, ck)
+selectCodeEditor("Input.vhd", 121, 179); // ce (w, ck)
+selectCodeEditor("Input.vhd", 163, 181); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("neural_network_lstm.vhd", 49, 279); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+typeControlKey((HResource) null, "neural.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 172 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 117 MB (+886kb) [00:52:45]
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+selectCodeEditor("neural_network_lstm.vhd", 179, 289); // ce (w, ck)
+// Elapsed time: 25 seconds
+selectCodeEditor("neural_network_lstm.vhd", 44, 299); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 44, 299); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1); // k (j, ck)
+selectCodeEditor("lstm.vhd", 104, 257); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 117, 263); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 117, 263, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 314 seconds
+selectCodeEditor("neural_network_lstm.vhd", 178, 369); // ce (w, ck)
+// [GUI Memory]: 123 MB (+86kb) [00:59:32]
+// Elapsed time: 24 seconds
+selectCodeEditor("neural_network_lstm.vhd", 133, 147); // ce (w, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 70 seconds
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 41 seconds
+selectCodeEditor("neural_network_lstm.vhd", 213, 310); // ce (w, ck)
+// Elapsed time: 70 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 707 MB. GUI used memory: 56 MB. Current time: 6/22/19 11:16:55 AM IRDT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+// Elapsed time: 33 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+// Elapsed time: 27 seconds
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 63 seconds
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 34 seconds
+selectCodeEditor("neural_network_lstm.vhd", 65, 231); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("neural_network_lstm.vhd", 313, 299); // ce (w, ck)
+// Elapsed time: 209 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectCodeEditor("neural.vhd", 303, 108); // ce (w, ck)
+selectCodeEditor("neural.vhd", 184, 113); // ce (w, ck)
+selectCodeEditor("neural.vhd", 249, 108); // ce (w, ck)
+selectCodeEditor("neural.vhd", 311, 105); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+// Elapsed time: 146 seconds
+selectCodeEditor("neural_network_lstm.vhd", 640, 299); // ce (w, ck)
+// Elapsed time: 16 seconds
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 81 seconds
+selectCodeEditor("neural_network_lstm.vhd", 803, 297); // ce (w, ck)
+// Elapsed time: 112 seconds
+selectCodeEditor("neural_network_lstm.vhd", 184, 347); // ce (w, ck)
+// Elapsed time: 150 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1); // k (j, ck)
+selectCodeEditor("lstm.vhd", 179, 138); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 124, 298); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 118, 297); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1); // k (j, ck)
+selectCodeEditor("lstm.vhd", 179, 291); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 657, 163); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 647, 166); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 653, 163); // ce (w, ck)
+// Elapsed time: 34 seconds
+selectCodeEditor("lstm.vhd", 112, 221); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 116, 230); // ce (w, ck)
+// Elapsed time: 17 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ht"); // l (aQ, ck)
+selectCodeEditor("lstm.vhd", 462, 211); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 657, 180); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 618, 179); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("lstm.vhd", 693, 185); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 175, 282); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 121, 112); // ce (w, ck)
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 191, 348); // ce (w, ck)
+typeControlKey((HResource) null, "lstm.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("lstm.vhd", 496, 89); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 511, 98); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("lstm.vhd", 72, 58); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 190, 266); // ce (w, ck)
+// Elapsed time: 116 seconds
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aI, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 707 MB. GUI used memory: 56 MB. Current time: 6/22/19 11:46:55 AM IRDT
+// Elapsed time: 684 seconds
+selectCodeEditor("lstm.vhd", 183, 254); // ce (w, ck)
+// Elapsed time: 253 seconds
+selectCodeEditor("lstm.vhd", 58, 193); // ce (w, ck)
+// Elapsed time: 96 seconds
+selectCodeEditor("lstm.vhd", 422, 337); // ce (w, ck)
+// Elapsed time: 15 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 132 seconds
+selectCodeEditor("lstm.vhd", 185, 363); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 211, 369); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 238, 363); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 332, 367); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 403, 371); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 412, 366); // ce (w, ck)
+// Elapsed time: 36 seconds
+selectCodeEditor("lstm.vhd", 178, 214); // ce (w, ck)
+// Elapsed time: 25 seconds
+selectCodeEditor("lstm.vhd", 76, 107); // ce (w, ck)
+// Elapsed time: 30 seconds
+selectCodeEditor("lstm.vhd", 223, 165); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 502, 173); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 501, 160); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("lstm.vhd", 40, 168); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("lstm.vhd", 34, 126); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 48, 165); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 39, 165); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Candidate.vhd", 0); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Candidate.vhd", 0, false, true); // k (j, ck) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Unreferenced, Ft.vhd]", 20, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL 2008, xil_defaultlib, Unreferenced, Ft.vhd]", 20, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ft.vhd", 5); // k (j, ck)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Ft.vhd", 5, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("Ft.vhd", 193, 260); // ce (w, ck)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Input.vhd", 4); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1); // k (j, ck)
+// Elapsed time: 24 seconds
+selectCodeEditor("lstm.vhd", 413, 311); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("lstm.vhd", 479, 163); // ce (w, ck)
+// Elapsed time: 25 seconds
+selectCodeEditor("lstm.vhd", 155, 249); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 88, 268); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 78, 285); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 84, 284); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("lstm.vhd", 60, 186); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 417, 128); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 263, 20); // ce (w, ck)
+// Elapsed time: 65 seconds
+selectCodeEditor("lstm.vhd", 139, 265); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 16, 241); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 86, 134); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("lstm.vhd", 78, 367); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 61, 247); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 56, 249); // ce (w, ck)
+selectCodeEditor("lstm.vhd", 82, 314); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 47 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+// Elapsed time: 32 seconds
+selectCodeEditor("neural_network_lstm.vhd", 53, 185); // ce (w, ck)
+// Elapsed time: 44 seconds
+selectCodeEditor("neural_network_lstm.vhd", 312, 331); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 66, 297); // ce (w, ck)
+// Elapsed time: 130 seconds
+selectCodeEditor("neural_network_lstm.vhd", 388, 312); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 118, 318); // ce (w, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 144, 375); // ce (w, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 586, 366); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 289, 392); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 7, 385); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "lstm.vhd", 1); // k (j, ck)
+selectCodeEditor("lstm.vhd", 176, 261); // ce (w, ck)
+typeControlKey((HResource) null, "lstm.vhd", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "neural_network_lstm.vhd", 2); // k (j, ck)
+selectCodeEditor("neural_network_lstm.vhd", 138, 180); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 152, 197); // ce (w, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("neural_network_lstm.vhd", 211, 206); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 477, 397); // ce (w, ck)
+// Elapsed time: 38 seconds
+selectCodeEditor("neural_network_lstm.vhd", 279, 385); // ce (w, ck)
+// Elapsed time: 38 seconds
+selectCodeEditor("neural_network_lstm.vhd", 381, 302); // ce (w, ck)
+// Elapsed time: 37 seconds
+selectCodeEditor("neural_network_lstm.vhd", 592, 299); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("neural_network_lstm.vhd", 204, 232); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("neural_network_lstm.vhd", 286, 351); // ce (w, ck)
+// Elapsed time: 79 seconds
+selectCodeEditor("neural_network_lstm.vhd", 128, 390); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 121, 392); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 88, 317); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 707 MB. GUI used memory: 55 MB. Current time: 6/22/19 12:16:55 PM IRDT
+// HMemoryUtils.trashcanNow. Engine heap size: 707 MB. GUI used memory: 55 MB. Current time: 6/22/19 1:04:47 PM IRDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3588 ms. Increasing delay to 3000 ms.
+// Elapsed time: 3107 seconds
+selectCodeEditor("neural_network_lstm.vhd", 501, 341); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 210, 314); // ce (w, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "neural_network_lstm.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 198, 314); // ce (w, ck)
+// Elapsed time: 30 seconds
+selectCodeEditor("neural_network_lstm.vhd", 893, 332); // ce (w, ck)
+// Elapsed time: 245 seconds
+selectCodeEditor("neural_network_lstm.vhd", 229, 391); // ce (w, ck)
+selectCodeEditor("neural_network_lstm.vhd", 229, 389); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 313 seconds
+selectCodeEditor("neural_network_lstm.vhd", 102, 292); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
