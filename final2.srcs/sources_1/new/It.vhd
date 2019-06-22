@@ -36,8 +36,8 @@ component sigmoid_module is
     Port (
            clk : in std_logic;
            enable : in std_logic;
-           input : in std_logic_vector(31 downto 0);
-           output : out std_logic_vector(31 downto 0));
+           input : in real;
+           output : out real);
 end component;
 
 signal res_forget : matrix_1_8;

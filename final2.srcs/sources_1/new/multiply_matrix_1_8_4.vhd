@@ -13,21 +13,21 @@ end multiply_matrix_1_8_8;
 architecture Behavioral of multiply_matrix_1_8_8 is
 component multiplier_module is
     Port (
-       inputx : in std_logic_vector(31 downto 0);
-       inputy : in std_logic_vector(31 downto 0);
-       output : out std_logic_vector(31 downto 0));
+       inputx : in real;
+       inputy : in real;
+       output : out real);
 end component;
 component add_module_8 is
  Port ( 
- input1 : in std_logic_vector(31 downto 0);
- input2 : in std_logic_vector(31 downto 0);
- input3 : in std_logic_vector(31 downto 0);
- input4 : in std_logic_vector(31 downto 0);
- input5 : in std_logic_vector(31 downto 0);
- input6 : in std_logic_vector(31 downto 0);
- input7 : in std_logic_vector(31 downto 0);
- input8 : in std_logic_vector(31 downto 0);
- out_add : out std_logic_vector(31 downto 0)
+ input1 : in real;
+ input2 : in real;
+ input3 : in real;
+ input4 : in real;
+ input5 : in real;
+ input6 : in real;
+ input7 : in real;
+ input8 : in real;
+ out_add : out real
  );
 end component ;
 signal output : matrix_8_8;

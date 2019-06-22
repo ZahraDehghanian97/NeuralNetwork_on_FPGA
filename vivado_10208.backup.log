@@ -1,0 +1,158 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri May 31 13:53:40 2019
+# Process ID: 10208
+# Current directory: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8288 C:\Users\sepidmnoroozi\Documents\8\fpga\project_2\NeuralNetwork_on_FPGA\final2.xpr
+# Log file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/vivado.log
+# Journal file: C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 811.309 ; gain = 112.391
+exit
+INFO: [Common 17-206] Exiting Vivalaunch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Ft' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Ft_vhdl.prj"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/lstm.vhd]
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_2_matrix_1_8.vhd
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'LSTM_Cell' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj LSTM_Cell_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/add_2_matrix_1_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity add_2_matrix_1_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Candidate
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_w'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:54]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_w'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:55]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_b'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:74]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_b'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:75]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_u'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:90]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_u'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Candidate.vhd:91]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Ct.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ct
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/It.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity It
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Ot.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Ot
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Output
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_w'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:54]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_w'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:55]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_b'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:74]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_b'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:75]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_u'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:90]
+WARNING: [VRFC 10-393] cannot access 'vec_file' from inside pure function 'init_u'. [C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/Output.vhd:91]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/dot_multiplier_1_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dot_multiplier_1_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/tanh_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tanh_module
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.srcs/sources_1/new/lstm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LSTM_Cell
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 27609502018a4cb5956c944967b2b5bc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot LSTM_Cell_behav xil_defaultlib.LSTM_Cell -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package xil_defaultlib.neurals_utils
+Compiling architecture high_level_sim of entity xil_defaultlib.sigmoid_module [sigmoid_module_default]
+Compiling architecture high_level_sim of entity xil_defaultlib.multiplier_module [multiplier_module_default]
+Compiling architecture high_level_sim of entity xil_defaultlib.add_module [add_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.add_module_4 [add_module_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.multiply_matrix_1_4_8 [multiply_matrix_1_4_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.add_module_8 [add_module_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.multiply_matrix_1_8_8 [multiply_matrix_1_8_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.add_3_matrix_1_8 [add_3_matrix_1_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Forget [forget_default]
+Compiling architecture behavioral of entity xil_defaultlib.Ft [ft_default]
+Compiling architecture behavioral of entity xil_defaultlib.Input [input_default]
+Compiling architecture behavioral of entity xil_defaultlib.It [it_default]
+Compiling architecture behavioral of entity xil_defaultlib.Output [output_default]
+Compiling architecture behavioral of entity xil_defaultlib.Ot [ot_default]
+Compiling architecture high_level_sim of entity xil_defaultlib.tanh_module [tanh_module_default]
+Compiling architecture behavioral of entity xil_defaultlib.Candidate [candidate_default]
+Compiling architecture behavioral of entity xil_defaultlib.Ct [ct_default]
+Compiling architecture behavioral of entity xil_defaultlib.dot_multiplier_1_8 [dot_multiplier_1_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.add_2_matrix_1_8 [add_2_matrix_1_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.lstm_cell
+Built simulation snapshot LSTM_Cell_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim/xsim.dir/LSTM_Cell_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 55.602 ; gain = 0.965
+INFO: [Common 17-206] Exiting Webtalk at Fri May 31 14:03:28 2019...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 895.180 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/sepidmnoroozi/Documents/8/fpga/project_2/NeuralNetwork_on_FPGA/final2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "LSTM_Cell_behav -key {Behavioral:sim_1:Functional:LSTM_Cell} -tclbatch {LSTM_Cell.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source LSTM_Cell.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 941.363 ; gain = 46.184
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'LSTM_Cell_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 941.363 ; gain = 46.184
+add_force {/LSTM_Cell/clk} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+run 1000 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 949.863 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 31 14:08:07 2019...

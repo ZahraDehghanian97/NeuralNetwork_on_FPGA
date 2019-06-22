@@ -56,7 +56,7 @@ function init_w return matrix_4_8 is
     while not endfile (vec_file) loop
       readline (vec_file, iline);
       read(iline,data_read);
-      res_t(x,y) := single_float_to_slv(data_read);
+      res_t(x,y) := data_read;
       if ( y = 7 ) then
         y := 0;
         x := x + 1;
@@ -76,7 +76,7 @@ function init_b return matrix_1_8 is
       while not endfile (vec_file) loop
         readline (vec_file, iline);
         read(iline,data_read);
-        res_t(x) := single_float_to_slv(data_read);
+        res_t(x) := data_read;
         x := x + 1;
       end loop;
       return res_t;
@@ -92,7 +92,7 @@ function init_u return matrix_8_8 is
         while not endfile (vec_file) loop
           readline (vec_file, iline);
           read(iline,data_read);
-          res_t(x,y) := single_float_to_slv(data_read);
+          res_t(x,y) := data_read;
           if ( y = 7 ) then
             y := 0;
             x := x + 1;

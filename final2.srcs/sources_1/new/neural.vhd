@@ -4,10 +4,10 @@ use ieee.math_real.all;
 use IEEE.numeric_std.all;
 
 package neurals_utils is
-  TYPE matrix_1_4 IS ARRAY (0 To 3) Of STD_LOGIC_VECTOR(31 DOWNTO 0);
-  TYPE matrix_1_8 IS ARRAY (0 To 7) Of STD_LOGIC_VECTOR(31 DOWNTO 0);
-  TYPE matrix_4_8 IS ARRAY (0 To 3, 0 To 7) Of STD_LOGIC_VECTOR(31 DOWNTO 0);
-  TYPE matrix_8_8 IS ARRAY (0 To 7, 0 To 7) Of STD_LOGIC_VECTOR(31 DOWNTO 0);
+  TYPE matrix_1_4 IS ARRAY (0 To 3) Of real;
+  TYPE matrix_1_8 IS ARRAY (0 To 7) Of real;
+  TYPE matrix_4_8 IS ARRAY (0 To 3, 0 To 7) Of real;
+  TYPE matrix_8_8 IS ARRAY (0 To 7, 0 To 7) Of real;
     
     function slv_to_single_float (
         input : in std_logic_vector(31 downto 0))

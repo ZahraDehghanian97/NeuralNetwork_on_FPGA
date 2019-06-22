@@ -4,21 +4,21 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity add_module_4 is
     Port ( 
-    input1 : in std_logic_vector(31 downto 0);
-    input2 : in std_logic_vector(31 downto 0);
-    input3 : in std_logic_vector(31 downto 0);
-    input4 : in std_logic_vector(31 downto 0);
-    out_add : out std_logic_vector(31 downto 0)
+    input1 : in real;
+    input2 : in real;
+    input3 : in real;
+    input4 : in real;
+    out_add : out real
     );
 end add_module_4;
 
 architecture Behavioral of add_module_4 is
-signal temp1 , temp2 : std_logic_vector(31 downto 0);
+signal temp1 , temp2 : real;
 component add_module is
     Port (
-       inputx : in std_logic_vector(31 downto 0);
-       inputy : in std_logic_vector(31 downto 0);
-       output : out std_logic_vector(31 downto 0));
+       inputx : in real;
+       inputy : in real;
+       output : out real);
 end component ;
 begin
     s1 : add_module port map(inputx=>input1, inputy=>input2,output=>temp1);

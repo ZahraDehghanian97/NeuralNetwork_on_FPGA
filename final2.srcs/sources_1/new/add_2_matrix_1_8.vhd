@@ -42,9 +42,9 @@ end add_2_matrix_1_8;
 architecture Behavioral of add_2_matrix_1_8 is
 component add_module is
     Port (
-       inputx : in std_logic_vector(31 downto 0);
-       inputy : in std_logic_vector(31 downto 0);
-       output : out std_logic_vector(31 downto 0));
+       inputx : in real;
+       inputy : in real;
+       output : out real);
 end component;
 
 begin

@@ -88,9 +88,9 @@ component It is
 end component ;
 component add_module is
     Port (
-       inputx : in std_logic_vector(31 downto 0);
-       inputy : in std_logic_vector(31 downto 0);
-       output : out std_logic_vector(31 downto 0));
+       inputx : in real;
+       inputy : in real;
+       output : out real);
 end component;
 component add_2_matrix_1_8 is
 Port (
@@ -103,8 +103,8 @@ component tanh_module is
     Port (
            clk : in std_logic;
            enable : in std_logic;
-           input : in std_logic_vector(31 downto 0);
-           output : out std_logic_vector(31 downto 0));
+           input : in real;
+           output : out real);
 end component ;
 signal out_f, out_o,out_i,out_c ,out_ct_1_ht,out_it_ct,out_add,out_tanh: matrix_1_8;
 signal counter : integer := 0; 
