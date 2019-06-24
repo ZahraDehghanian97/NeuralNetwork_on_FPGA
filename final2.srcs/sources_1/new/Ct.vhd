@@ -53,7 +53,7 @@ begin
 if (rising_edge(clk)) then
     if(enable ='1') then
         counter <= counter + 1;
-        if (counter = 7) then
+        if (counter = 5) then
             out_ct <= tmp_res;
         end if;
     else

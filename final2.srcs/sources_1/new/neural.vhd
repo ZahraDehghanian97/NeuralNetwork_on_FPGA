@@ -11,6 +11,7 @@ package neurals_utils is
   TYPE matrix_4_8 IS ARRAY (0 To 3, 0 To 7) Of real;
   TYPE matrix_8_8 IS ARRAY (0 To 7, 0 To 7) Of real;
   TYPE array_20 IS ARRAY (20 downto 1) of matrix_1_4;
+  TYPE array_8 IS ARRAY (8 downto 1) of real;
     
     function slv_to_single_float (
         input : in std_logic_vector(31 downto 0))
